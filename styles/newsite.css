@@ -90,8 +90,8 @@ a {
     .gradient {
         position: absolute !important;
         width: 100% !important;
-        height: 25% !important;
-        background-image: linear-gradient(to top, rgb(8, 8, 8) 5%, transparent 100%), url('https://lh3.googleusercontent.com/xHbHTJJYiDsTo2-WR-Ch4DYWgbTo-X0VwZPQd8V0JlCbFdHftr9Ot8cWwXQFQpy39h5GSubgtQUTB5JLaFkqZ0_O=w640-h400-e365-rj-sc0x00ffffff') !important;
+        height: 100% !important;
+        background-image: linear-gradient(to top, rgb(8, 8, 8) 0%, transparent 80%), url('https://lh3.googleusercontent.com/xHbHTJJYiDsTo2-WR-Ch4DYWgbTo-X0VwZPQd8V0JlCbFdHftr9Ot8cWwXQFQpy39h5GSubgtQUTB5JLaFkqZ0_O=w640-h400-e365-rj-sc0x00ffffff') !important;
         margin-bottom: 100px !important;
     }
     .user-side {
@@ -119,10 +119,10 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 25%;
+    width: 100%;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to left, rgb(8, 8, 8) 5%, transparent 100%), url('https://lh3.googleusercontent.com/xHbHTJJYiDsTo2-WR-Ch4DYWgbTo-X0VwZPQd8V0JlCbFdHftr9Ot8cWwXQFQpy39h5GSubgtQUTB5JLaFkqZ0_O=w640-h400-e365-rj-sc0x00ffffff');
+    background-image: linear-gradient(to left, rgb(8, 8, 8) 0%, transparent 80%), url('https://lh3.googleusercontent.com/xHbHTJJYiDsTo2-WR-Ch4DYWgbTo-X0VwZPQd8V0JlCbFdHftr9Ot8cWwXQFQpy39h5GSubgtQUTB5JLaFkqZ0_O=w640-h400-e365-rj-sc0x00ffffff');
 }
 #user {
   margin-top: 8px;
