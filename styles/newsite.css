@@ -155,7 +155,7 @@ a {
     margin-right: 10%;
 }
 .stuff {
-    padding-left: calc(25% + 50px);
+    padding-left: (50px);
     width: calc(75% - 100px - 150px);
     height: 100%;
     padding-top: 150px;
