@@ -1,5 +1,5 @@
 
-/* This is just random code from google that i edited lol */
+/* This is just code from google that i edited together lol */
 body {
     background-color: rgb(8, 8, 8);
     color: #ffffff;
@@ -13,6 +13,32 @@ a {
     color: #ffffff;
     transition: .5s;
 }
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0; 
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  margin-top: 30px;
+} 
+
 .reference > a:hover {
     color:lightskyblue;
 }
