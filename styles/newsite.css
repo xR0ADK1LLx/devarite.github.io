@@ -91,7 +91,7 @@ a {
         position: absolute !important;
         width: 100% !important;
         height: 100% !important;
-        background-image: linear-gradient(to top, rgb(8, 8, 8) 1%, transparent 1%), url('https://i.imgur.com/ZYqMdMR.png') !important;
+        background-image: linear-gradient(to top, rgb(8, 8, 8) 1%, transparent 1%), url('https://i.imgur.com/g68I0m5.png') !important;
         margin-bottom: 100px !important;
     }
     .user-side {
@@ -122,7 +122,7 @@ a {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to left, rgb(8, 8, 8) 1%, transparent 1%), url('https://i.imgur.com/ZYqMdMR.png');
+    background-image: linear-gradient(to left, rgb(8, 8, 8) 1%, transparent 1%), url('https://i.imgur.com/g68I0m5.png');
 }
 #user {
   margin-top: 8px;
