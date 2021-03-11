@@ -10,29 +10,8 @@ body {
 }
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #cd8fff;
     transition: .5s;
-}
-
-
-.navbar {
-  overflow: hidden;
-  background-color: rgb(100, 0, 167);
-  position: fixed;
-  top: 0; 
-  width: 100%;
-}
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.navbar a:hover {
-  background: #ddd;
-  color: black;
 }
 
 .main {
@@ -41,6 +20,7 @@ a {
 
 .reference > a:hover {
     color:lightskyblue;
+
 }
 .social > a:hover {
     color: lightskyblue;
