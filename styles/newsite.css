@@ -91,7 +91,7 @@ a {
         position: absolute !important;
         width: 100% !important;
         height: 100% !important;
-        background-image: linear-gradient(to top, rgb(8, 8, 8) 0%, transparent 80%), url('https://lh3.googleusercontent.com/xHbHTJJYiDsTo2-WR-Ch4DYWgbTo-X0VwZPQd8V0JlCbFdHftr9Ot8cWwXQFQpy39h5GSubgtQUTB5JLaFkqZ0_O=w640-h400-e365-rj-sc0x00ffffff') !important;
+        background-image: linear-gradient(to top, rgb(8, 8, 8) 0%, transparent 0%), url('https://imgur.com/a/IYCK0Mv') !important;
         margin-bottom: 100px !important;
     }
     .user-side {
@@ -122,7 +122,7 @@ a {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to left, rgb(8, 8, 8) 0%, transparent 80%), url('https://lh3.googleusercontent.com/xHbHTJJYiDsTo2-WR-Ch4DYWgbTo-X0VwZPQd8V0JlCbFdHftr9Ot8cWwXQFQpy39h5GSubgtQUTB5JLaFkqZ0_O=w640-h400-e365-rj-sc0x00ffffff');
+    background-image: linear-gradient(to left, rgb(8, 8, 8) 0%, transparent 0%), url('https://imgur.com/a/IYCK0Mv');
 }
 #user {
   margin-top: 8px;
