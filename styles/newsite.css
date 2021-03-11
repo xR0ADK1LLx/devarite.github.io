@@ -65,7 +65,7 @@ a {
         position: absolute !important;
         width: 100% !important;
         height: 25% !important;
-        background-image: linear-gradient(to top, rgb(8, 8, 8) 10%, transparent 100%), url('https://www.solidbackgrounds.com/images/1125x2436/1125x2436-electric-purple-solid-color-background.jpg') !important;
+        background-image: linear-gradient(to top, rgb(8, 8, 8) 10%, transparent 10%), url('https://www.solidbackgrounds.com/images/1125x2436/1125x2436-electric-purple-solid-color-background.jpg') !important;
         margin-bottom: 100px !important;
     }
     .user-side {
@@ -96,7 +96,7 @@ a {
     width: 25%;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to left, rgb(8, 8, 8) 10%, transparent 100%), url('https://www.solidbackgrounds.com/images/1125x2436/1125x2436-electric-purple-solid-color-background.jpg');
+    background-image: linear-gradient(to left, rgb(8, 8, 8) 10%, transparent 10%), url('https://www.solidbackgrounds.com/images/1125x2436/1125x2436-electric-purple-solid-color-background.jpg');
 }
 #user {
   margin-top: 8px;
