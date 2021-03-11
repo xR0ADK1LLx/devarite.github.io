@@ -19,11 +19,11 @@ a {
 } 
 
 .reference > a:hover {
-    color:lightskyblue;
+    color: #ff00f2;
 
 }
 .social > a:hover {
-    color: lightskyblue;
+    color: #ff00f2;
 }
 .glow:hover {
     text-shadow: 0 0 32px white;
