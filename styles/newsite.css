@@ -81,7 +81,7 @@ a {
     transform: translateY(-50%);
 }
 .pfp {
-    border-radius: 5px;
+    border-radius: 25px;
 }
 @media (max-width: 1000px) {
     body {
