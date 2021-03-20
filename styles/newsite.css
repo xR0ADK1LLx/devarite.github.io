@@ -63,6 +63,15 @@ a {
 .pfp {
     border-radius: 15px;
 }
+
+.box{
+    background-color: grey; 
+    height: 90px;
+    width:  150px;
+    padding: 10px;
+    margin: 100px;
+    border: 2px solid purple;
+}
 @media (max-width: 1000px) {
     body {
         zoom: 2;
