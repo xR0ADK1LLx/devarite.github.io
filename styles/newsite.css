@@ -18,27 +18,15 @@ td {
     text-align: center;
 }
 
-tr:nth-child(even) {
-    background-color: #green;
-}
-
-th[scope="col"] {
-    background-color: #deepskyblue;
-    color: #fff;
-}
-
-th[scope="row"] {
-    background-color: #peru;
-}
-
 caption {
     padding: 10px;
     caption-side: bottom;
 }
 
 table {
+    background-color: #121212;
     border-collapse: collapse;
-    border: 2px solid rgb(200, 200, 200);
+    border: 0px;
     border-radius: 10px;
     letter-spacing: 1px;
     font-family: sans-serif;
