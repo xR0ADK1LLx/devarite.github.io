@@ -45,10 +45,12 @@ table {
 }
 
 .container {
+    background-color: darkgray;
     width: 700px;
     height: 100px;
-    border: 2px solid purple;
+    border: 1px solid purple;
     border-radius: 10px;
     padding: 15px;
     margin: 5px;
+    text-align: left;
 }
