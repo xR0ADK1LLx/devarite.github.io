@@ -11,50 +11,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script>
-         setup = [
-                    {
-                      "categoryName": "Test",
-                      "categoryChildren": [
-                        {
-                          "objectTitle": "Test43t6",
-                          "objectImage": "Test43t6",
-                          "objectDescription": "Test43t6",
-                          "objectType": "Test43t6",
-                          "objectRedirect": "Test43t6"
-                        },
-                      ]
-                    }
-                  ]
-
-          function load(){
-            for (var i=0;i<setup.length;i++){
-              console.log("a");
-            }
-            var total = ""
-            for (var i=0;i<setup.length;i++){
-              element = setup[i];
-              var output = ""
-              var start = `<div id="category"><h1>${element.categoryName}</h1>`
-              output += start
-              for (var v=0;v<element.categoryChildren.length;v++){
-                element2 = element.categoryChildren[v];
-                var middle = `<a class="glow" href="${element2.objectRedirect}" target="_blank"><section id="object">
-                <div class="tile-title"><img class="preview" src="${element2.objectImage}" onerror="this.style.display='none'"/>${element2.objectTitle}</div>
-                <div class="tile-about"><p style="display:block;">${element2.objectDescription}</p></div>
-                <div class="tile-information"><i class="fas fa-code">&nbsp;&nbsp;</i>${element2.objectType}</div>
-                </section></a>`
-                output += middle;
-              };
-              output += "</div>"
-
-              total += output;
-            };
-
-
-            document.getElementById("categories").innerHTML += total;
-          }
-        </script>
+       
 
 	<body>
     <b>DevariteTheFox's site</b>
