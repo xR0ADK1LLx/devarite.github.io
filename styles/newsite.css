@@ -15,16 +15,16 @@ td {
 }
 
 tr:nth-child(even) {
-    background-color: #eee;
+    background-color: #green;
 }
 
 th[scope="col"] {
-    background-color: #696969;
+    background-color: #deepskyblue;
     color: #fff;
 }
 
 th[scope="row"] {
-    background-color: #d7d9f2;
+    background-color: #peru;
 }
 
 caption {
