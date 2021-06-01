@@ -111,7 +111,7 @@ a {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to left, rgb(8, 8, 8) 1%, transparent 100%), url('https://i.imgur.com/g68I0m5.png');
+    background-image: linear-gradient(to left, rgb(8, 8, 8) 100%, transparent 100%), url('https://i.imgur.com/g68I0m5.png');
 }
 #user {
   margin-top: 8px;
