@@ -4,8 +4,45 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none ;
+    color: ffffff;
+    transition: .5s;
+}
+
+.reference > a:hover {
+    color: lightskyblue;
+}
+
+.glow:hover {
+    text-shadow: 0 0 32px white;
+}
+
+::selection {
+    background-color: #ffffff;
+    color: 403353;
+}
+
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    opacity: 1;
+}
+
+::-webkit-scrollbar-thumb {
+    transition: 0.4s;
+    background: #ffffff;
+    
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(233, 233, 233);
 }
 
 td,
@@ -45,9 +82,9 @@ table {
 }
 
 .infobox {
-    background-color: #121212;
+    background-color: #331233;
     width: 400px;
-    height: 110px;
+    height: 90px;
     border: 0px;
     border-radius: 10px;
     padding: 15px;
