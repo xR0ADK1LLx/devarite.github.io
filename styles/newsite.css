@@ -22,6 +22,10 @@ a {
     text-shadow: 0 0 32px white;
 }
 
+.social > a:hover {
+    color: purple;
+}
+
 ::selection {
     background-color: #ffffff;
     color: 403353;
@@ -100,4 +104,28 @@ table {
     top: 0;
     left: 0;
     padding-left: 100px;
+}
+
+.info {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+}
+
+@media (max-width: 1000px) {
+    body{
+        zoom: 2;
+    }
+    .user-side{
+        padding-left: 0% !important;
+    }
+    .info {
+        width: 100%;
+        text-align: center;
+        top: 200px;
+    }
+    .social > a {
+        margin-right: 3% !important;
+    }
 }
