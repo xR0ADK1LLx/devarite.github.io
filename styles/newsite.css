@@ -96,6 +96,19 @@ table {
     text-align: left;
 }
 
+.pfp {
+    background-image: favicon.ico;
+    border-radius: 20;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+}
+
+.alias {
+    color: rgb(224, 23, 255);
+    padding: 1673582375238475239672396234623e46236236232372573457345734583468368356834658356835683583;
+}
+
 .user-side {
     height: 100%;
     width: 100%;
@@ -103,11 +116,12 @@ table {
     z-index: 1;
     top: 0;
     left: 0;
+    padding-top: 100px;
     padding-left: 100px;
 }
 
 .projects {
-    padding-left: 300px;
+    padding-left: 400px;
     position: absolute;
     width: 100%;
     height: 100%;
