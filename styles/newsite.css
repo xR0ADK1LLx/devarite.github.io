@@ -117,3 +117,13 @@ table {
     width: 600px;
     height: 100%;
 }
+
+.social {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.social > a {
+    margin-right: 10%;
+}
+
