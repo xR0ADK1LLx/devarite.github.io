@@ -118,6 +118,11 @@ table {
     height: 100%;
 }
 
+.reference {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
 .social {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -126,4 +131,3 @@ table {
 .social > a {
     margin-right: 10%;
 }
-
