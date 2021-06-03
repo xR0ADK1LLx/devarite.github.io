@@ -102,7 +102,7 @@ table {
 
 .user-side {
     height: 100%;
-    width: 100%;
+    width: 300px;
     position: absolute;
     z-index: 1;
     top: 0;
