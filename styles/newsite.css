@@ -106,8 +106,9 @@ table {
     padding-left: 100px;
 }
 
-.portfolio {
+.projects {
     padding-left: 300px;
     position: absolute;
-
+    width: 100%;
+    height: 100%;
 }
