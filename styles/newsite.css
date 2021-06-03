@@ -106,26 +106,8 @@ table {
     padding-left: 100px;
 }
 
-.info {
-    margin: 0;
+.portfolio {
+    padding-left: 300px;
     position: absolute;
-    top: 50%;
-    transform: translate(-50%);
-}
 
-@media (max-width: 1000px) {
-    body{
-        zoom: 2;
-    }
-    .user-side{
-        padding-left: 0% !important;
-    }
-    .info {
-        width: 100%;
-        text-align: center;
-        top: 200px;
-    }
-    .social > a {
-        margin-right: 3% !important;
-    }
 }
