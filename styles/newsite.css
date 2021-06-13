@@ -1,6 +1,9 @@
 body {
-    /*background-color: rgb(8, 8, 8);*/
-    background-image: conic-gradient(rgba(0, 0, 0, 0.067) 120deg, rgb(83, 83, 83) 120deg 240deg, rgb(36, 36, 36) 240deg);
+    background-color: rgb(8, 8, 8);
+    background-size: 40px 40px;
+    background-image:
+      linear-gradient(to right, grey 1px, transparent 1px),
+      linear-gradient(to bottom, grey 1px, transparent 1px);
     color: #ffffff;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
