@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(8, 8, 8);
+    /*background-color: rgb(8, 8, 8);*/
     background-image: repeating-conic-gradient(from 45deg, #111 0 deg 90deg, #222 90deg 180deg);
     color: #ffffff;
     font-family: "Poppins", sans-serif;
