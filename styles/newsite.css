@@ -1,6 +1,6 @@
 body {
     /*background-color: rgb(8, 8, 8);*/
-    background-image: repeating-conic-gradient(from 45deg, #111 0 deg 90deg, #222 90deg 180deg);
+    background-image: repeating-conic-gradient(rgba(0, 0, 0, 0.067) 120deg, rgb(83, 83, 83) 120deg 240deg, rgb(36, 36, 36) 240deg);
     color: #ffffff;
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
