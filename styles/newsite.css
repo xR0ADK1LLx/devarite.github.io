@@ -1,7 +1,11 @@
 body {
     background-color: rgb(8, 8, 8);
-    color: #ffffff;
     font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 10em;
 }
 
 * {
@@ -130,4 +134,19 @@ table {
 
 .social > a {
     margin-right: 10%;
+}
+
+.floor {
+    position: absolute;
+    top: 1em;
+    transform: translate(-50%, -50%), rotateX(90deg);
+    width: 15em;
+    height: 15em;
+    background-image: repeating-conic-gradient(from 45deg, #111 0 deg 90deg, #222 90deg 180deg);
+    background-size: 8em 8em;
+
+}
+
+.scene {
+    position: relative;
 }
