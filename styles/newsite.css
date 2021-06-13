@@ -150,4 +150,5 @@ table {
 
 .scene {
     position: relative;
+    transform-style: preserve-3d;
 }
