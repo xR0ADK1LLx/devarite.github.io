@@ -5,6 +5,7 @@
 		<title>DevariteTheFox's website</title>
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 		<link rel="stylesheet" href="styles/newsite.css">
+    <script src="script.js"></script>
     <link href="" rel="stylesheet">
     <script src="https://kit.fontawsome.com/c08a4915fa.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700&display=swap" rel="stylesheet">
@@ -13,88 +14,6 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   </head>
 	<body>
-    <script>
-      var format = function () {
-
-var before = -1;
-var html = $.trim(editor.text())
-.split("\n")
-.reverse()
-.map(function (line) {
-
-    var a = line.length === before ? 'merge-end' : '';
-    before = line.length;
-
-    return '<pre class="' + a + '"><span>' + line.split('').join('</span><span>') + '</span></pre>';
-})
-.reverse()
-.join('');
-
-editor.html(html);
-};
-
-var getSelectedNodes = function () {
-
-var i;
-var nodes = [];
-var selection = rangy.getSelection();
-
-for (i = 0; i < selection.rangeCount; ++i) {
-
-    selection
-    .getRangeAt(i)
-    .getNodes()
-    .forEach(function (node) {
-
-        if ($(node).is('span')) {
-
-            nodes.push(node);
-        }
-    });
-}
-
-return nodes;
-};
-
-var highlight = function (nodes, beforeNode) {
-
-var currentNode = $(nodes.shift()).addClass('highlight');
-var currentParent = currentNode.parent();
-
-if (beforeNode) {
-
-    var beforeParent = beforeNode.parent();
-
-    if (currentParent.get(0) !== beforeParent.get(0)) {
-
-        currentNode.addClass('begin');
-        beforeNode.addClass('end');
-        beforeParent.addClass('merge-begin');
-    }
-
-} else {
-
-    currentNode.addClass('begin');
-}
-
-if (nodes.length) {
-
-    highlight(nodes, currentNode);
-
-} else {
-
-    currentNode.addClass('end');
-}
-};
-
-format();
-
-$(document).on('mouseup', function () {
-
-$('.highlight').removeClass('highlight begin end');
-highlight(getSelectedNodes());
-});
-    </script>
     <div class="user-side">
       <img width="160px" class="pfp" src="favicon.ico">
        <p><div><span style="color:#2b1038;">D</span><span style="color:#412454;">e</span><span style="color:#56386f;">v</span><span style="color:#674d7f;">a</span><span style="color:#78628f;">r</span><span style="color:#9d8fb0;">i</span><span style="color:#b6a2c8;">t</span><span style="color:#ceb5df;">e</span></div></p>
