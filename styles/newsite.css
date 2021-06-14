@@ -36,12 +36,8 @@ a {
     color: purple;
 }
 
-#ta{
-    font-size : 18px;
-}
-
-#ta::selection{
-    background : rgba(173, 216, 130, 0.9);
+::selection{
+    background : rgba(133, 133, 133, 0.9);
     border : 1px solid transparent;
     border-radius : 15px;
 }
@@ -90,7 +86,7 @@ table {
 }
 
 .container {
-    background-color: #121212;
+    background-color: #444444;
     width: 700px;
     height: 150px;
     border: 0px;
@@ -98,6 +94,7 @@ table {
     padding: 15px;
     margin: 5px;
     text-align: left;
+    box-shadow: 0 0 3px #333333;
 }
 
 .infobox {
@@ -105,7 +102,7 @@ table {
     width: 400px;
     height: 90px;
     border: 0px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 15px;
     margin: 5px;
     text-align: left;
