@@ -125,6 +125,7 @@ table {
 }
 
 .projects {
+    padding-top: 50px;
     padding-left: 400px;
     position: absolute;
     width: 600px;
