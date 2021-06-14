@@ -162,7 +162,7 @@ table {
 .prog {
     background-color: rgba(104, 104, 104, 0.6);
     width: 40px;
-    height: 21px;
+    height: 20px;
     border-radius: 10px;
     margin: 5px;
     text-align: left;
@@ -170,4 +170,5 @@ table {
     box-shadow: 0 0 3px #3a3a3a;
     padding-top: 140px;
     position: fixed;
+    height: auto;
 }
