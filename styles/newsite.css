@@ -1,6 +1,6 @@
 body {
     background-color: rgb(8, 8, 8);
-    background-size: 20px 20px;
+    background-size: 100%;
     background-image: "Backing.png";
     /*background-image:
       linear-gradient(to right, rgb(1, 1, 1) 1px, transparent 1px),
