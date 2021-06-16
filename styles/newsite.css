@@ -86,7 +86,7 @@ table {
 }
 
 .container {
-    background-color: #444444;
+    background-color: #a3a3a3ab;
     width: 700px;
     height: 150px;
     border: 0px;
@@ -94,7 +94,7 @@ table {
     padding: 15px;
     margin: 5px;
     text-align: left;
-    box-shadow: 0 0 3px #333333;
+    box-shadow: 0 0 3px #4e4e4ecc;
 }
 
 .infobox {
