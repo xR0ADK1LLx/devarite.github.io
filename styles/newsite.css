@@ -160,3 +160,10 @@ table {
     padding-bottom: 5px;
     padding-top: 5px;
 }
+
+.RBPN {
+    position: center bottom;
+    padding-bottom: 5px;
+    font-size: 12px;
+    color: rgb(9 8 9);
+}
