@@ -161,15 +161,6 @@ table {
     padding-top: 5px;
 }
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-  
-#content-wrap {
-    padding-bottom: 2.5rem;    /* Footer height */
-}
-
 .footer {
     position: static;
     bottom: 0;
