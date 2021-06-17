@@ -22,11 +22,11 @@ a {
 }
 
 .reference > a:hover {
-    color: lightskyblue;
+    color: purple;
 }
 
 .glow:hover {
-    text-shadow:0 0 0.5em currentColor;
+    text-shadow:0 0 32px currentColor;
 }
 
 .social > a:hover {
@@ -55,16 +55,6 @@ a {
 
 ::-webkit-scrollbar-thumb:hover {
     background: rgb(233, 233, 233);
-}
-
-td,
-th {
-    border: 0px solid rgb(0, 0, 0);
-    padding: 10px;
-}
-
-td {
-    text-align: left;
 }
 
 caption {
@@ -167,4 +157,9 @@ table {
     margin: 5;
     text-align: center;
     box-shadow: 0 0 3px #333333;
+}
+
+.category {
+    font-size: 35px;
+    font-style: bold;
 }
