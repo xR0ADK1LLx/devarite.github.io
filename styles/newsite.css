@@ -163,7 +163,7 @@ table {
 
 .footer {
     background-color: rgb(25,25,25);
-    position: center bottom;
+    position: fixed center bottom;
     width: 100%;
     height: 40px;
     padding-bottom: 5px;
