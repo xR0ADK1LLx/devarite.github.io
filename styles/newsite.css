@@ -1,18 +1,7 @@
-$fireColor: rgb(255,80,0);
-$fireColorT: rgba(255,80,0,0);
-$dur: 1s;
-$fireRad: 3em;
-$parts: 50;
-$partSize: 2em;
-
 body {
     background-size: 100%;
     background:center top url("Backing.png") no-repeat;
     background-color: rgb(8, 8, 8);
-    /*background-image:
-      linear-gradient(to right, rgb(1, 1, 1) 1px, transparent 1px),
-      linear-gradient(to bottom, rgb(1, 1, 1) 1px, transparent 1px);
-    color: #ffffff;*/
     font-family: "poppins", sans-serif;
     color: #ffffff;
 }
@@ -172,11 +161,19 @@ table {
     padding-top: 5px;
 }
 
+$fireColor: rgb(255,80,0);
+$fireColorT: rgba(255,80,0,0);
+$dur: 1s;
+$fireRad: 3em;
+$parts: 50;
+$partSize: 2em;
+
+
 .fire {
 	font-size: 24px;
 	margin: 3em auto 0 auto;
 	position: relative;
-	width: 10em;
+	width: 100%;
 	height: 12em;
 }
 .particle {
