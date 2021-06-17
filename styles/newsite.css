@@ -1,13 +1,12 @@
 body {
     background-size: 100%;
-    background-image: url("Backing.png");
-    background-position: center top;
+    background:center top url("Backing.png") no-repeat;
     background-color: rgb(8, 8, 8);
     /*background-image:
       linear-gradient(to right, rgb(1, 1, 1) 1px, transparent 1px),
       linear-gradient(to bottom, rgb(1, 1, 1) 1px, transparent 1px);
     color: #ffffff;*/
-    font-family: "typeface", sans-serif;
+    font-family: "poppins", sans-serif;
     color: #ffffff;
 }
 
