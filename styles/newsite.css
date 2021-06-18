@@ -103,6 +103,7 @@ table {
     height: 500px;
     width: 180px;
     //position: absolute;
+    position: static;
     align-content: center;
     text-align: center;
     z-index: 1;
