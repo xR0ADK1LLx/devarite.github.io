@@ -92,23 +92,17 @@ table {
 
 .pfp {
     border-radius: 20px;
-    padding-bottom: 5px;
+    padding: 4px;
     box-shadow: 0 0 3px #444444;
 }
 
-.user-side {
+.header {
     background-color: #333333c3;
     box-shadow: 0 0 3px #272727c3;
     border-radius: 20px;
-    height: 500px;
-    width: 180px;
+    height: 60px;
+    width: 100%;
     position: absolute;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    align-content: center;
-    align-items: center;
-    text-align: center;
     z-index: 2;
     top: 0;
     left: 0;
@@ -170,16 +164,3 @@ table {
     padding-top: 5px;
 }
 
-.footer {
-    display: flex;
-    flex-direction: row;
-    margin: 15px auto;
-    width: 100%;
-    padding-top: 100%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    background-color: rgb(39, 39, 39);
-    color: rgb(107, 0, 89);
-    text-align: center;
-}
