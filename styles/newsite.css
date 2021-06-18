@@ -162,10 +162,10 @@ table {
 }
 
 .footer {
-    position: static;
-    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 15px auto;
     width: 100%;
-    height: 2.5rem;
     background-color: rgb(39, 39, 39);
     color: rgb(107, 0, 89);
     text-align: center;
