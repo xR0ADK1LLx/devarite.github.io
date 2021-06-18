@@ -73,6 +73,10 @@ table {
     box-shadow: 0 0 3px #444444;
 }
 
+ul#menu li {
+    display:inline;
+  }
+
 .header {
     background-color: #333333c3;
     box-shadow: 0 0 3px #272727c3;
@@ -80,7 +84,7 @@ table {
     width: 100%;
     position: absolute;
     z-index: 2;
-    align-items: center;
+
 
 }
 
