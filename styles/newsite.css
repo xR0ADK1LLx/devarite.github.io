@@ -103,7 +103,9 @@ table {
     height: 500px;
     width: 180px;
     position: absolute;
-    box-sizing: content-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     align-content: center;
     align-items: center;
     text-align: center;
@@ -173,7 +175,10 @@ table {
     flex-direction: row;
     margin: 15px auto;
     width: 100%;
-    margin-top: -100%;
+    padding-top: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     background-color: rgb(39, 39, 39);
     color: rgb(107, 0, 89);
     text-align: center;
