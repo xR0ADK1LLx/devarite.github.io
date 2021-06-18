@@ -102,11 +102,10 @@ table {
     border-radius: 20px;
     height: 500px;
     width: 180px;
-    //position: absolute;
-    position: static;
+    position: absolute;
     align-content: center;
     text-align: center;
-    z-index: 1;
+    z-index: 2;
     top: 0;
     left: 0;
     padding-top: 50px;
@@ -172,6 +171,7 @@ table {
     flex-direction: row;
     margin: 15px auto;
     width: 100%;
+    padding-top: 100%;
     background-color: rgb(39, 39, 39);
     color: rgb(107, 0, 89);
     text-align: center;
