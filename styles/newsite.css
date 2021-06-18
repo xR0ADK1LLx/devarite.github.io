@@ -70,7 +70,6 @@ table {
 
 .pfp {
     border-radius: 20px;
-    padding: 4px;
     box-shadow: 0 0 3px #444444;
 }
 
@@ -81,6 +80,8 @@ table {
     width: 100%;
     position: absolute;
     z-index: 2;
+    align-items: center;
+    
 }
 
 .projects {
