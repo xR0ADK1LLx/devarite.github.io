@@ -6,28 +6,6 @@ body {
     color: #ffffff;
 }
 
-* {
-    margin: 0;
-}
-
-a {
-    text-decoration: none ;
-    color: ffffff;
-    transition: .5s;
-}
-
-.reference > a:hover {
-    color: purple;
-}
-
-.glow:hover {
-    text-shadow:0 0 32px currentColor;
-}
-
-.social > a:hover {
-    color: purple;
-}
-
 ::selection{
     background : rgba(133, 133, 133, 0.9);
     border : 1px solid transparent;
@@ -116,15 +94,6 @@ table {
 .reference {
     margin-top: 2px;
     margin-bottom: 2px;
-}
-
-.social {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-.social > a {
-    margin-right: 10%;
 }
 
 .small_container {
