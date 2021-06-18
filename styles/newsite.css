@@ -98,12 +98,14 @@ table {
 
 .user-side {
     background-color: #333333c3;
-    box-shadow: 0 0 1px #272727c3;
+    box-shadow: 0 0 3px #272727c3;
     border-radius: 20px;
     height: 500px;
     width: 180px;
     position: absolute;
+    display: flex;
     align-content: center;
+    align-items: center;
     text-align: center;
     z-index: 2;
     top: 0;
