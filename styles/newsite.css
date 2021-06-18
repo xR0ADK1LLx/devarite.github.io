@@ -103,7 +103,7 @@ table {
     height: 500px;
     width: 180px;
     position: absolute;
-    display: flex;
+    box-sizing: content-box;
     align-content: center;
     align-items: center;
     text-align: center;
