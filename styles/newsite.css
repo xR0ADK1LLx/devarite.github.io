@@ -99,15 +99,10 @@ table {
 .header {
     background-color: #333333c3;
     box-shadow: 0 0 3px #272727c3;
-    border-radius: 20px;
     height: 60px;
     width: 100%;
     position: absolute;
     z-index: 2;
-    top: 0;
-    left: 0;
-    padding-top: 50px;
-    padding-left: 50px;
 }
 
 .projects {
