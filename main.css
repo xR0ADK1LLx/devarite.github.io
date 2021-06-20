@@ -51,13 +51,11 @@ caption {
 }
 
 table {
-    background-color: #121212;
     border-collapse: collapse;
     border: 0px;
     border-radius: 10px;
     letter-spacing: 1px;
-    font-family: sans-serif;
-    font-size: .8rem;
+    font-size: 18px;
 }
 
 .container {
@@ -166,5 +164,6 @@ li a:hover:not(.active) {
 table,
 td {
     border: 0px solid #333;
+    background-color: #00000000;
 }
 
