@@ -4,6 +4,7 @@ body {
     background-color: rgb(8, 8, 8);
     margin: 0px !important; 
     font-family: "Poppins", sans-serif;
+    font-style: normal;
     color: #ffffff;
 }
 
@@ -15,6 +16,7 @@ ul {
 
 li {
     display: inline;
+    font-style: normal;
 }
 
 ::selection{
