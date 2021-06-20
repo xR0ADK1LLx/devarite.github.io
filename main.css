@@ -92,6 +92,7 @@ table {
     height: 40px;
     width: 100%;
     position: absolute;
+    z-index: 6;
 }
 
 .projects {
@@ -146,6 +147,6 @@ table {
 }
 
 .header-links {
-    z-index: 3;
+    z-index: 7;
 }
 
