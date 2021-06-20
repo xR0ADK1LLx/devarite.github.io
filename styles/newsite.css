@@ -83,7 +83,6 @@ ul#menu li {
     height: 60px;
     width: 100%;
     position: absolute;
-    z-index: 2;
 }
 
 .projects {
