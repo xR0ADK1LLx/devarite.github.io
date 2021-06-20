@@ -95,6 +95,8 @@ table {
     width: 100%;
     position: absolute;
     z-index: 6;
+    top: 50%;                         
+    transform: translate(0, -50%) }
 }
 
 .projects {
