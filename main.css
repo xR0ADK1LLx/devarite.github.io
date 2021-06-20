@@ -62,11 +62,12 @@ table {
 
 .container {
     background-color: #a3a3a3ab;
-    width: 700px;
+    width: 500px;
     height: 150px;
     border: 0px;
     border-radius: 20px;
     padding: 15px;
+    padding-left: 25px;
     margin: 5px;
     text-align: left;
     box-shadow: 0 0 3px #8b8b8bab;
