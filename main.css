@@ -11,7 +11,11 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+}
+
+li {
+    display: inline;
+}
 
 ::selection{
     background : rgba(133, 133, 133, 0.9);
