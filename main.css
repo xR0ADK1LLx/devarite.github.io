@@ -7,6 +7,12 @@ body {
     color: #ffffff;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
 ::selection{
     background : rgba(133, 133, 133, 0.9);
     border : 1px solid transparent;
