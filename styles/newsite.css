@@ -74,14 +74,11 @@ table {
     box-shadow: 0 0 3px #444444;
 }
 
-ul#menu li {
-    display:inline;
-  }
-
 .header {
     background-color: #333333c3;
     box-shadow: 0 0 3px #272727c3;
-    height: 60px;
+    text-align: center;
+    height: 40px;
     width: 100%;
     position: absolute;
 }
@@ -134,5 +131,6 @@ ul#menu li {
 .hitem {
     padding-left: 10px;
     padding-right: 10px;
+    color: blueviolet;
 }
 
