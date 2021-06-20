@@ -1,6 +1,6 @@
 body {
     background-size: 100%;
-    background:center top url("Backing.png") no-repeat;
+    /*background:center top url("Backing.png") no-repeat;*/
     background-color: rgb(8, 8, 8);
     margin: 0px !important; 
     font-family: "Poppins", sans-serif;
