@@ -151,8 +151,10 @@ table {
 }
 
 .header-links {
+    padding: 0px;
+    padding-left: 25px;
     position: absolute;
-    z-index: 7;
+    z-index: 8;
     text-align: center;
 }
 
