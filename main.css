@@ -82,6 +82,7 @@ table {
 .pfp {
     border-radius: 20px;
     box-shadow: 0 0 3px #444444;
+    align-self: center;
 }
 
 .header {
