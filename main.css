@@ -90,16 +90,6 @@ table {
     align-self: top left;
 }
 
-.header {
-    background-color: #333333c3;
-    box-shadow: 0 0 3px #272727c3;
-    text-align: left center !important;
-    height: 40px;
-    width: 100%;
-    position: absolute;
-    z-index: 6;
-}
-
 .projects {
     padding-top: 50px;
     position: absolute;
@@ -142,20 +132,6 @@ table {
     font-style: bold;
     padding-bottom: 5px;
     padding-top: 5px;
-}
-
-.hitem {
-    padding-left: 10px;
-    padding-right: 10px;
-    color: blueviolet;
-}
-
-.header-links {
-    padding: 0px;
-    padding-left: 45px;
-    position: absolute ;
-    z-index: 8; 
-    text-align: center;
 }
 
 ul {
