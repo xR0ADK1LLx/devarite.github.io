@@ -151,6 +151,7 @@ table {
 }
 
 .header-links {
+    position: absolute;
     z-index: 7;
     text-align: center;
 }
