@@ -144,3 +144,7 @@ table {
     color: blueviolet;
 }
 
+.header-links {
+    z-index: 3;
+}
+
