@@ -90,7 +90,7 @@ table {
 .header {
     background-color: #333333c3;
     box-shadow: 0 0 3px #272727c3;
-    text-align: center !important;
+    text-align: left center !important;
     height: 40px;
     width: 100%;
     position: absolute;
