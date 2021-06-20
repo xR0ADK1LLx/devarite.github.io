@@ -152,8 +152,8 @@ table {
 
 .header-links {
     padding: 0px;
-    padding-left: 25px;
-    position: absolute;
+    padding-left: 45px;
+    position: static;
     z-index: 8;
     text-align: center;
 }
