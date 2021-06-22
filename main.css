@@ -89,7 +89,7 @@ table {
 }
 
 .projects {
-    text-align: center;
+    text-align: center !important;
     padding-top: 50px;
     position: absolute;
     margin: 15;
