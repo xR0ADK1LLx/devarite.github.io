@@ -11,6 +11,11 @@ body {
     color: #ffffff;
 }
 
+p {
+    font-weight: bold;
+    margin: 0px;
+}
+
 b {
     font-size: 24px;
 }
