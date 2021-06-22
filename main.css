@@ -136,6 +136,11 @@ table {
     padding-top: 5px;
 }
 
+.discordname {
+    text-align: center;
+    color: #a646be;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
