@@ -102,7 +102,7 @@ table {
 
 .projects {
     text-align: center !important;
-    padding-top: 50px;
+    padding-top: 20px;
     position: absolute;
     margin: 15;
     margin-left: auto;
@@ -137,12 +137,14 @@ table {
 }
 
 .discordname {
+    padding-top: 5px;
     position: absolute;
     text-align: center;
     font-weight: bold;
-    color: #a646be;
+    color: #ba70cc;
     width: 100%;
     height: fit-content;
+    font-size: 20px;
 }
 
 ul {
