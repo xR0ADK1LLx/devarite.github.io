@@ -137,8 +137,12 @@ table {
 }
 
 .discordname {
+    position: absolute;
     text-align: center;
+    font-weight: bold;
     color: #a646be;
+    width: 100%;
+    height: fit-content;
 }
 
 ul {
