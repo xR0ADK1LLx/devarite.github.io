@@ -137,14 +137,15 @@ table {
 }
 
 .discordname {
-    padding-left: 1em;
+    padding-left: 6em;
     position: absolute;
-    text-align: center;
+    text-align: center !important;
     font-weight: bold;
     color: #ba70cc;
     width: fit-content;
     height: 50px;
     font-size: 20px;
+    display: inline;
 }
 
 ul {
