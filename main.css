@@ -142,7 +142,7 @@ table {
     text-align: center;
     font-weight: bold;
     color: #ba70cc;
-    width: 100%;
+    width: fit-content;
     height: fit-content;
     font-size: 20px;
 }
