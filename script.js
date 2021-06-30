@@ -1,5 +1,5 @@
 function copy() {
-    var copyText = document.getElementById("myInput");
+    var copyText = "DevariteTheFox#4441";
     copyText.select();
     copyText.setSelectionRange(0, 99999); /* For mobile devices */
     document.execCommand("copy");
