@@ -4,9 +4,9 @@ html, body {
 }
 
 body {
-    background: linear-gradient(-45deg, #480083, #00000000, #480083, #00000000);
+    background: repeating-linear-gradient(-45deg, #480083, #00000000);
     background-size: 400% 400%;
-    animation: gradient 15s ease-in-out infinite;
+    animation: gradient 20s ease-in infinite;
     background-color: rgb(8, 8, 8);
     margin-top: 0px;
     margin-bottom: 0px;
