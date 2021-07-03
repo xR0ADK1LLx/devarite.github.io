@@ -221,19 +221,3 @@ td {
     height: 500px;
     width: auto;
 }
-
-.discordnamecopybutton{
-    border: 0px;
-    background: none;
-    display: block;
-    color: #a646be;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.discordnamecopybutton:not(.active) {
-    background-color: #111;
-  }
-
-
