@@ -4,10 +4,7 @@ html, body {
 }
 
 body {
-    background: repeating-linear-gradient(-45deg, #480083, #00000000);
-    background-size: 400% 400%;
-    animation: gradient 20s ease-in infinite;
-    background-color: rgb(8, 8, 8);
+    background-color: rgb(12, 12, 12);
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: auto;
