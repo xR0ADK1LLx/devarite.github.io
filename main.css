@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background-image: "https://mymodernmet.com/wp/wp-content/uploads/2019/06/nasa-free-photos-online-5.jpg";
+    background-image: url("https://mymodernmet.com/wp/wp-content/uploads/2019/06/nasa-free-photos-online-5.jpg");
     background-size: auto;
     background-color: rgb(12, 12, 12);
     margin-top: 0px;
