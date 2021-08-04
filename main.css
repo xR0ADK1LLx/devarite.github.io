@@ -226,3 +226,10 @@ td {
     width: 100%;
     height: 24px;
 }
+
+.lucunLogo {
+    border-radius: 5px;
+    align-self: fixed left;
+    width: 20px;
+    height: 20px;
+}
