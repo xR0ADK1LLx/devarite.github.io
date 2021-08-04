@@ -219,3 +219,8 @@ td {
     height: 500px;
     width: auto;
 }
+
+.footer {
+    width: 100%;
+    height: 24px;
+}
