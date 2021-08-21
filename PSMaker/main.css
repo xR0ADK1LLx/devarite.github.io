@@ -13,5 +13,6 @@ body {
 .TextBox {
     height: 40;
     width: 400px;
-    border-radius: 5;
+    border-radius: 8;
+    background-color: rgb(30,30,30);
 }
