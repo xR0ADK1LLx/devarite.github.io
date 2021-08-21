@@ -9,3 +9,9 @@ body {
     font-style: normal;
     color: #ffffff;
 }
+
+.TextBox {
+    height: 40;
+    width: 400px;
+    border-radius: 5;
+}
