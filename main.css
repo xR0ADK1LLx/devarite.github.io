@@ -203,6 +203,7 @@ li a {
   color: #a646be;
   text-align: center;
   text-decoration: none;
+  border-radius: 8px;
 }
 
 li a:hover:not(.active) {
