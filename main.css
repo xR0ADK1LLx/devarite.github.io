@@ -193,7 +193,7 @@ ul {
 li {
     margin-left: 5px !important;
     margin-right: 5px !important;
-  float: left;
+    float: left;
 }
 
 li a {
@@ -208,10 +208,12 @@ li a {
 
 li a:hover:not(.active) {
   background-color: #111;
+  border-radius: 8px;
 }
 
 .active {
   background-color: #9900ff;
+  
 }
 
 table,
