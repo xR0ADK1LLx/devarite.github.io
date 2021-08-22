@@ -199,6 +199,7 @@ li {
 li a {
   margin-left: 5px !important;
   margin-right: 5px !important;
+  padding: 0 !important;
   display: block;
   color: #a646be;
   text-align: center;
