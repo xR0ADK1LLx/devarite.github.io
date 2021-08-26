@@ -172,7 +172,7 @@ table {
     position: absolute;
     text-align: center !important;
     font-weight: bold;
-    color: #ba70cc;
+    color: #ffffff;
     width: fit-content;
     height: 50px;
     font-size: 20px;
@@ -184,7 +184,7 @@ ul {
   margin: 0;
   padding: 4px;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(50, 50, 50);
   display:flex !important;
   text-align: center !important; 
   align-items: center !important;
@@ -207,7 +207,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color:  rgb(41, 41, 41);
+  background-color:  rgb(50, 50, 50);
   border-radius: 8px;
 }
 
