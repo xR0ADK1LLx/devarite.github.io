@@ -207,7 +207,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color:  rgb(64, 64, 64);
+  background-color:  rgb(70, 70, 70);
   border-radius: 8px;
 }
 
