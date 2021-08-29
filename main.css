@@ -93,8 +93,8 @@ table {
 
 .container {
     background-color: #383838d3;
-    width: 500px;
-    height: 150px;
+    width: 600px;
+    height: 180px;
     border: 0px;
     border-radius: 20px;
     padding: 15px;
@@ -231,3 +231,10 @@ td {
 .CenterText {
     text-align: center;
 }
+
+.langBox {
+    width: 16px;
+}
+    
+
+
