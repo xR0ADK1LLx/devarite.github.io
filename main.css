@@ -166,7 +166,7 @@ table {
     display: inline;
 }
 
-ul {
+.ulMain {
   list-style-type: none;
   margin: 0;
   padding: 4px;
@@ -176,6 +176,13 @@ ul {
   text-align: center !important; 
   align-items: center !important;
 }
+
+.ulAlt{
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+    overflow: hidden;
+  }
 
 li {
     margin-left: 5px !important;
