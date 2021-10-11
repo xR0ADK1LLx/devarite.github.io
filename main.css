@@ -62,10 +62,12 @@ li {
 
 ::-webkit-scrollbar {
     width: 6px;
+    padding-right: 4px;
+    border-radius: 3px;
 }
 
 ::-webkit-scrollbar-track {
-    opacity: 1;
+    opacity: 0;
 }
 
 ::-webkit-scrollbar-thumb {
