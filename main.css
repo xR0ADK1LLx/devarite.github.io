@@ -61,9 +61,8 @@ li {
 }
 
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 10px;
     padding-right: 4px;
-    border-radius: 3px;
 }
 
 ::-webkit-scrollbar-track {
@@ -71,9 +70,10 @@ li {
 }
 
 ::-webkit-scrollbar-thumb {
+    width: 6px;
     transition: 0.4s;
-    background: #ffffff;
-    
+    background: #b6b6b6;
+    border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
