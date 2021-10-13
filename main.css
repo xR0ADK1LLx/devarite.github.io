@@ -70,14 +70,15 @@ li {
 }
 
 ::-webkit-scrollbar-thumb {
+    padding-top: 5px;
     width: 6px;
     transition: 0.4s;
-    background: #b6b6b6;
+    background: #2c2c2c;
     border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(233, 233, 233);
+    background: rgb(92, 92, 92);
 }
 
 caption {
