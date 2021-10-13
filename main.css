@@ -62,7 +62,7 @@ li {
 
 * {
     scrollbar-width: auto;
-    scrollbar-color: #666666 #ffffff00;
+    scrollbar-color: #666666 rgb(30, 30, 30);
 }
 
 *::-webkit-scrollbar {
@@ -76,7 +76,7 @@ li {
 *::-webkit-scrollbar-thumb {
     background-color: #666666;
     border-radius: 10px;
-    border: 3px solid #ffffff00;
+    border: 3px solid rgb(30, 30, 30);
 }
 
 caption {
