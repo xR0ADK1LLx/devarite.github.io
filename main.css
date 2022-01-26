@@ -127,8 +127,9 @@ table {
 .projects {
     text-align: center !important;
     padding-top: 20px;
-    position:absolute;
     margin: 15;
+    margin-left: auto;
+    margin-right: auto;
     width: fit-content;
     height: fit-content;
 }
