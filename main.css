@@ -106,7 +106,7 @@ table {
     padding-left: 25px;
     margin: 5px;
     text-align: left;
-    filter: drop-shadow(10px 10px 0px #111111);
+    box-shadow: rgb(12, 12, 12);
 }
 
 .infobox {
