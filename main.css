@@ -209,7 +209,7 @@ li {
     height: fit-content;
 }
 
-a .sidebar-content-body-links{
+a{
   padding-left: 5px;
   padding-right: 5px;
   display: block;
