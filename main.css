@@ -144,6 +144,12 @@ table {
 
 }
 
+img {
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+}
+
 .sidebar { 
     background-color: #303030;
     width: 20%;
