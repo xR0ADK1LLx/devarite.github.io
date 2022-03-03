@@ -139,12 +139,20 @@ table {
     margin-bottom: 2px;
 }
 
+.sidebar-content-header-image {
+    width: 80%;
+    height: 80%;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .sidebar { 
     background-color: #303030;
     width: 20%;
     height: 100%;
     border: 0px;
-    border-radius: 15px;
     padding: 15px;
     padding-left: 25px;
     text-align: left;
