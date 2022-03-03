@@ -138,7 +138,6 @@ table {
 .sidebar-content-header-image {
     width: 100% !important;
     height: 100% !important;
-    margin: 10px;
     border-radius: 15px !important;
 }
 
@@ -153,6 +152,7 @@ img {
     width: 20%;
     height: 100%;
     border: 0px;
+    padding: 15px;
     text-align: left;
     box-shadow: rgb(12, 12, 12);
 }
