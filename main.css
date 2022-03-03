@@ -219,7 +219,7 @@ a{
   border-radius: 8px;
 }
 
-li a:hover:not(.active) {
+a:hover:not(.active) {
   background-color:  rgb(70, 70, 70);
   border-radius: 8px;
 }
