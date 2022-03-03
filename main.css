@@ -201,7 +201,7 @@ li {
     float: left;
 }
 
-li a {
+a {
   padding-left: 5px;
   padding-right: 5px;
   display: block;
