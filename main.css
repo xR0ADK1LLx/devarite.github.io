@@ -140,8 +140,8 @@ table {
 }
 
 .sidebar-content-header-image {
-    width: 80%;
-    height: 80%;
+    width: fit-content;
+    height: fit-content;
     border-radius: 15px;
     background-size: cover;
     background-position: center;
