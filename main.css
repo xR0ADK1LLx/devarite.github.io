@@ -181,18 +181,6 @@ img {
     padding-top: 5px;
 }
 
-.discordname {
-    padding-left: 6em;
-    position: absolute;
-    text-align: center !important;
-    font-weight: bold;
-    color: #ffffff;
-    width: fit-content;
-    height: 50px;
-    font-size: 20px;
-    display: inline;
-}
-
 .ulMain {
   list-style-type: none;
   margin: 0;
