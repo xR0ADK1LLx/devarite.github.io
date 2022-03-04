@@ -228,6 +228,13 @@ li {
     float: left;
 }
 
+h3 {
+    padding: 0 0 7px;
+    margin: 0 0 24px -0.3px;
+    color: #c60;
+    border-bottom: 1px solid #b00;
+}
+
 .sidebar-content-body-links {
     margin: 15;
     margin-left: auto;
