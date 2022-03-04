@@ -174,7 +174,7 @@ a img {
 }
 
 .sidebar { 
-    background-color: #303030;
+    background-color: #131313;
     width: 264px !important;
     height: 100%;
     border: 0px;
@@ -236,6 +236,12 @@ h3 {
     padding-left: 310px;
 }
 
+h3, h4 {
+    font-size: 100%;
+    font-weight: 400;
+    text-align: left;
+}
+
 .sidebar-content-body-links {
     margin: 15;
     margin-left: auto;
@@ -244,7 +250,7 @@ h3 {
     height: fit-content;
     text-align: center;
     position: absolute;
-    bottom: 20px;
+    bottom: 40px;
 }
 
 a{
