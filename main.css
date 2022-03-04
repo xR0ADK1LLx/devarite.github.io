@@ -167,6 +167,7 @@ a img {
     padding: 15px;
     text-align: center;
     box-shadow: rgb(12, 12, 12);
+    position: fixed;
 }
 
 .fcbox {
@@ -219,6 +220,7 @@ li {
     margin-right: auto;
     width: fit-content;
     height: fit-content;
+    text-align: center;
 }
 
 a{
