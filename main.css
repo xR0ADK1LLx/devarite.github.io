@@ -10,7 +10,7 @@ body {
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto; 
-    font-family: "IBMVGA8" ,monospace;
+    font-family: "./assets/font.FON";
     font-style: normal;
     color: #ffffff;
 }
@@ -59,7 +59,7 @@ li {
 }
 
 ::selection{
-    background : rgba(0, 116, 10, 0.9);
+    background : rgba(0, 180, 15, 0.9);
     color: black;
     border : 1px solid transparent;
     border-radius : 15px;
