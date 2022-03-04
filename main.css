@@ -126,7 +126,7 @@ table {
 .project {
     background-color: #1b1b1b;
     width: 80%;
-    height: 200px;
+    height: fit-content;
     border: 0px;
     border-radius: 15px;
     padding: 15px;
@@ -232,7 +232,7 @@ h3 {
     color: #c60;
     border-bottom: 1px solid #b00;
     padding-left: 310px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 h3, h4 {
