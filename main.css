@@ -114,8 +114,8 @@ table {
     font-size: 18px;
 }
 
-.container {
-    background-color: #303030;
+.project {
+    background-color: #1b1b1b;
     width: 80%;
     height: 200px;
     border: 0px;
@@ -124,7 +124,6 @@ table {
     padding-left: 25px;
     margin: 5px;
     text-align: left;
-    box-shadow: rgb(12, 12, 12);
 }
 
 .infobox {
@@ -136,16 +135,6 @@ table {
     padding: 15px;
     margin: 5px;
     text-align: left;
-}
-
-.projects {
-    text-align: center !important;
-    padding-top: 20px;
-    margin: 15;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-    height: fit-content;
 }
 
 .reference {
