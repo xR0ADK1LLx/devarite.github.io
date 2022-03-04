@@ -284,8 +284,9 @@ td {
 
 .copyright {
     text-align: center;
-    font-size: 12px;
-    padding-top: 10px;
+    font-size: 16px;
+    padding-top: 15px;
     padding-left: 310px;
+    letter-spacing: normal;
 }
 
