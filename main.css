@@ -175,7 +175,7 @@ a img {
 
 .sidebar { 
     background-color: #303030;
-    width: 264px;
+    width: 264px !important;
     height: 100%;
     border: 0px;
     padding: 15px;
