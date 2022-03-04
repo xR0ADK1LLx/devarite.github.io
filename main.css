@@ -50,6 +50,15 @@ hr {
     padding-left: 310px;
 }
 
+.project-container p{
+    margin: 0px;
+    padding-left: initial !important;
+}
+
+.project-container h3, h4{
+    padding-left: initial !important;
+}
+
 p {
     margin: 0px;
 }
