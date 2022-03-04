@@ -153,8 +153,9 @@ img {
 
 a img {
     border-radius: 4px;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    font-size: 28px;
 }
 
 .sidebar { 
