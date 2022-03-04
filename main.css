@@ -291,3 +291,10 @@ td {
     line-height: 20px;
     white-space: normal;
 }
+
+.copyright ul li {
+    display: inline;
+    font-style: normal;
+    text-align: center !important;
+    margin: 0 !important;
+}
