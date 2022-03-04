@@ -45,9 +45,13 @@ hr {
     background-color: rgb(87, 26, 145);
 }
 
-p {
+.page-content p{
     margin: 0px;
     padding-left: 310px;
+}
+
+p {
+    margin: 0px;
 }
 
 b {
