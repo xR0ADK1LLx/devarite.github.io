@@ -121,7 +121,7 @@ table {
     border: 0px;
     border-radius: 15px;
     padding: 15px;
-    padding-left: 310px;
+    margin-left: 310px;
     margin: 5px;
     text-align: center;
 }
