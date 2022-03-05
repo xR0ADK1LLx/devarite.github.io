@@ -1,0 +1,16 @@
+{
+    "short_name": "Devarite",
+    "name": "Devarite's home",
+    "icons": [
+        {
+            "src": "https://avatars.githubusercontent.com/u/80384432?v=4",
+            "type": "image/png",
+            "sizes": "128x128"
+        }
+    ],
+    "start_url": "/index.html",
+    "background_color": "#212121",
+    "display": "standalone",
+    "scope": "/app/",
+    "theme_color": "#7f03fc"
+}
