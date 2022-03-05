@@ -13,33 +13,46 @@
         <!--matrix rain in javascript-->
         <div class="matrixrain">
             <script>
-                //javascript matrix rain
-                var matrixrain = document.getElementsByClassName("matrixrain")[0];
-                var matrixrain_width = matrixrain.offsetWidth;
-                var matrixrain_height = matrixrain.offsetHeight;
+                var c = document.getElementById("c");
+                var ctx = c.getContext("2d");
+
+                c.height = window.innerHeight;
+                c.width = window.innerWidth;
                 
-                while (true) {
-                    //put random characters in the matrixrain div
-                    var matrixrain_char = String.fromCharCode(Math.floor(Math.random() * (122 - 97 + 1)) + 97);
-                    var matrixrain_char_div = document.createElement("div");
-                    matrixrain_char_div.innerHTML = matrixrain_char;
-                    matrixrain_char_div.style.top = Math.random() * matrixrain_height + "px";
-                    matrixrain_char_div.style.left = Math.random() * matrixrain_width + "px";
-                    matrixrain_char_div.style.fontSize = Math.random() * (50 - 10) + 10 + "px";
-                    matrixrain.appendChild(matrixrain_char_div);
+                var ascii = "!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~░▒▓│┤╡╢╖╕╣║╗╝╜╛┐└┴┬├─┼╞╟╚╔╩╦╠═╬╧╨╤╥╙╘╒╓╫╪┘┌█▄▌▐▀";
+                ascii = ascii.split("");
 
-                    //make the characters move
-                    var matrixrain_char_top = parseInt(matrixrain_char_div.style.top);
-                    var matrixrain_char_left = parseInt(matrixrain_char_div.style.left);
-                    matrixrain_char_div.style.top = matrixrain_char_top + 1 + "px";
-                    matrixrain_char_div.style.left = matrixrain_char_left + 1 + "px";
-                    if (matrixrain_char_top > matrixrain_height) {
-                        matrixrain.removeChild(matrixrain_char_div);
-                    }
+                var font_size = 10;
+                var columns = c.width/font_size;
 
+                var drops = [];
+
+                for(var x = 0; x < columns; x++)
+                    drops[x] = 1; 
+
+                function draw()
+                {
+                    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+                    ctx.fillRect(0, 0, c.width, c.height);
+                    
+                    ctx.fillStyle = "#0F0"; 
+                    ctx.font = font_size + "px arial";
+
+                    for(var i = 0; i < drops.length; i++)
+
+                        var text = ascii[Math.floor(Math.random()*ascii.length)];
+
+                        ctx.fillText(text, i*font_size, drops[i]*font_size);
+                        
+                        if(drops[i]*font_size > c.height && Math.random() > 0.975)
+                            drops[i] = 0;
+
+                        drops[i]++;
                 }
+                
+                setInterval(draw, 33);
             </script>
-            a
+            <canvas id="c"></canvas>
         </div>
     </body>
 </html>
