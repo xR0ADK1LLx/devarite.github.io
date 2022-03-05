@@ -170,6 +170,10 @@ html, body {
       height: 30px;
       font-size: 32px;
   }
+
+  .source-code-link {
+      text-align: center !important;
+  }
   
   .sidebar {
       background-color: #131313;
