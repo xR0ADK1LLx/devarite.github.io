@@ -1,0 +1,22 @@
+/*basic reset*/
+  * {margin: 0; padding: 0;}
+  /*adding a black bg to the body to make things clearer*/
+  canvas {display: block;}
+
+  @font-face {
+      font-family: "IBM";
+      src: url("./assets/font.woff") format("woff");
+  }
+  
+  body {
+      background-size: auto;
+      background-color: rgb(0, 0, 0);
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: auto;
+      margin-right: auto; 
+      font-family: "IBM";
+      font-style: normal;
+      color: #ffffff;
+  }
+
