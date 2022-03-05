@@ -10,30 +10,38 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     </head>
     <body>
-        <!--3d rotating sphere using javascript rendering in ascii-->
+        <!--matrix javascript rendering in ascii-->
         <div class="sphere">
             <div class="ascii">
-                <!--ascii sphere-->
+                <!--ascii-->
                 <script>
-                    //sphere rendering to ascii
-                    var sphere = "";
-                    var sphere_size = 50;
-                    var sphere_radius = sphere_size / 2;
+                    //raining matrix
+                    //makes it rain random characters from the top of the screen
 
-                    for (var y = 0; y < sphere_size; y++) {
-                        for (var x = 0; x < sphere_size; x++) {
-                            var px = x - sphere_radius;
-                            var py = y - sphere_radius;
-                            var pz = Math.sqrt(sphere_radius * sphere_radius - px * px - py * py);
-                            var p = new THREE.Vector3(px, py, pz);
-                            var p_normalized = p.normalize();
-                            var p_normalized_x = Math.round(p_normalized.x * 100) / 100;
-                            var p_normalized_y = Math.round(p_normalized.y * 100) / 100;
-                            var p_normalized_z = Math.round(p_normalized.z * 100) / 100;
-                            sphere += p_normalized_x + " " + p_normalized_y + " " + p_normalized_z + "\n";
+                    //variables
+                    charsPerSecond = 50;
+
+                    while (true) {
+                        //get the current time
+                        var time = new Date().getTime();
+
+                        //get the current character
+                        var char = String.fromCharCode(Math.floor(Math.random() * (126 - 32 + 1)) + 32);
+
+                        //get the current line
+                        var line = Math.floor(Math.random() * (window.innerHeight - 1));
+
+                        //get the current column
+                        var column = Math.floor(Math.random() * (window.innerWidth - 1));
+
+                        //write the character to the screen
+                        document.getElementById("ascii").innerHTML += "<span style='top:" + line + "px;left:" + column + "px;'>" + char + "</span>";
+
+                        //wait for the next character to be written
+                        while (new Date().getTime() < time + 1000 / charsPerSecond) {
+                            //do nothing
                         }
                     }
-                    document.write(sphere);
 
                 </script>
             </div>
