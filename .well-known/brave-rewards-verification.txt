@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: devarite.github.io
+Token: 031f71dfe15da70967f0cdfe98a9ea645ed2320d5ba17635ba3a9cb191219681
