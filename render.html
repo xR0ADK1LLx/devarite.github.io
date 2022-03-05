@@ -10,41 +10,23 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     </head>
     <body>
-        <!--matrix javascript rendering in ascii-->
-        <div class="sphere">
-            <div class="ascii">
-                <!--ascii-->
-                <script>
-                    //raining matrix
-                    //makes it rain random characters from the top of the screen
-
-                    //variables
-                    charsPerSecond = 50;
-
-                    while (true) {
-                        //get the current time
-                        var time = new Date().getTime();
-
-                        //get the current character
-                        var char = String.fromCharCode(Math.floor(Math.random() * (126 - 32 + 1)) + 32);
-
-                        //get the current line
-                        var line = Math.floor(Math.random() * (window.innerHeight - 1));
-
-                        //get the current column
-                        var column = Math.floor(Math.random() * (window.innerWidth - 1));
-
-                        //write the character to the screen
-                        document.getElementById("ascii").innerHTML += "<span style='top:" + line + "px;left:" + column + "px;'>" + char + "</span>";
-
-                        //wait for the next character to be written
-                        while (new Date().getTime() < time + 1000 / charsPerSecond) {
-                            //do nothing
-                        }
+        <!--matrix rain in javascript-->
+        <div class="matrixrain">
+            <script>
+                //makes it rain random characters
+                var matrixrain = function() {
+                    var matrixrain = document.getElementById("matrixrain");
+                    var matrixrain_text = "";
+                    var matrixrain_text_length = Math.floor(Math.random() * (10 - 1) + 1);
+                    for (var i = 0; i < matrixrain_text_length; i++) {
+                        matrixrain_text += String.fromCharCode(Math.floor(Math.random() * (122 - 97) + 97));
                     }
-
-                </script>
-            </div>
+                    matrixrain.innerHTML = matrixrain_text;
+                }
+                //makes it rain random characters every second
+                setInterval(matrixrain, 1000);
+                
+            </script>
         </div>
     </body>
 </html>
