@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Devarite's Home</title>
+        <link href="https://avatars.githubusercontent.com/u/80384432?v=4" rel="shortcut icon" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="main.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--3d rotating sphere using javascript rendering in ascii-->
+        <div class="sphere">
+            <div class="ascii">
+                <!--ascii sphere-->
+                <script>
+                    //sphere rendering to ascii
+                    var sphere = "";
+                    var sphere_size = 50;
+                    var sphere_radius = sphere_size / 2;
+
+                    for (var y = 0; y < sphere_size; y++) {
+                        for (var x = 0; x < sphere_size; x++) {
+                            var px = x - sphere_radius;
+                            var py = y - sphere_radius;
+                            var pz = Math.sqrt(sphere_radius * sphere_radius - px * px - py * py);
+                            var p = new THREE.Vector3(px, py, pz);
+                            var p_normalized = p.normalize();
+                            var p_normalized_x = Math.round(p_normalized.x * 100) / 100;
+                            var p_normalized_y = Math.round(p_normalized.y * 100) / 100;
+                            var p_normalized_z = Math.round(p_normalized.z * 100) / 100;
+                            sphere += p_normalized_x + " " + p_normalized_y + " " + p_normalized_z + "\n";
+                        }
+                    }
+                    document.write(sphere);
+
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
