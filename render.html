@@ -13,20 +13,33 @@
         <!--matrix rain in javascript-->
         <div class="matrixrain">
             <script>
-                //makes it rain random characters
-                var matrixrain = function() {
-                    var matrixrain = document.getElementById("matrixrain");
-                    var matrixrain_text = "";
-                    var matrixrain_text_length = Math.floor(Math.random() * (10 - 1) + 1);
-                    for (var i = 0; i < matrixrain_text_length; i++) {
-                        matrixrain_text += String.fromCharCode(Math.floor(Math.random() * (122 - 97) + 97));
-                    }
-                    matrixrain.innerHTML = matrixrain_text;
-                }
-                //makes it rain random characters every second
-                setInterval(matrixrain, 1000);
+                //javascript matrix rain
+                var matrixrain = document.getElementsByClassName("matrixrain")[0];
+                var matrixrain_width = matrixrain.offsetWidth;
+                var matrixrain_height = matrixrain.offsetHeight;
                 
+                while (true) {
+                    //put random characters in the matrixrain div
+                    var matrixrain_char = String.fromCharCode(Math.floor(Math.random() * (122 - 97 + 1)) + 97);
+                    var matrixrain_char_div = document.createElement("div");
+                    matrixrain_char_div.innerHTML = matrixrain_char;
+                    matrixrain_char_div.style.top = Math.random() * matrixrain_height + "px";
+                    matrixrain_char_div.style.left = Math.random() * matrixrain_width + "px";
+                    matrixrain_char_div.style.fontSize = Math.random() * (50 - 10) + 10 + "px";
+                    matrixrain.appendChild(matrixrain_char_div);
+
+                    //make the characters move
+                    var matrixrain_char_top = parseInt(matrixrain_char_div.style.top);
+                    var matrixrain_char_left = parseInt(matrixrain_char_div.style.left);
+                    matrixrain_char_div.style.top = matrixrain_char_top + 1 + "px";
+                    matrixrain_char_div.style.left = matrixrain_char_left + 1 + "px";
+                    if (matrixrain_char_top > matrixrain_height) {
+                        matrixrain.removeChild(matrixrain_char_div);
+                    }
+
+                }
             </script>
+            a
         </div>
     </body>
 </html>
