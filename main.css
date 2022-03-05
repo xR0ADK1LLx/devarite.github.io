@@ -310,3 +310,10 @@ html, body {
       text-align: center !important;
       margin: 0 !important;
   }
+
+  a ul li {
+    display: inline;
+    font-style: normal;
+    text-align: center !important;
+    margin: 0 !important;
+  }
