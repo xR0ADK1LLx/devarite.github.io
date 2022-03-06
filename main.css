@@ -171,8 +171,9 @@ html, body {
       font-size: 32px;
   }
 
-  .source-code-link {
+  .link {
       text-align: center !important;
+      padding-left: 7px;
   }
   
   .sidebar {
