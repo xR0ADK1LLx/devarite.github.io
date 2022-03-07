@@ -339,7 +339,7 @@ html, body {
     background-color: #4d4d4d;
   }
 
-.defualt a{
+.defualt-a a{
     padding-left: 5px;
     padding-right: 5px;
     display: none !important;
@@ -348,7 +348,7 @@ html, body {
     text-decoration: underline;
   }
   
-  .defualt a:hover:not(.active) {
+  .defualt-a a:hover:not(.active) {
     background-color: none;
     color: #ffffff;
     border-radius: 8px;
