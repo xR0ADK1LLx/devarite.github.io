@@ -338,18 +338,3 @@ html, body {
   button:hover {
     background-color: #4d4d4d;
   }
-
-.defualt-a a{
-    padding-left: 5px;
-    padding-right: 5px;
-    display: none !important;
-    color: #8c68bb !important;
-    text-align: center;
-    text-decoration: underline;
-  }
-  
-  .defualt-a a:hover:not(.active) {
-    background-color: none;
-    color: #ffffff;
-    border-radius: 8px;
-  }
