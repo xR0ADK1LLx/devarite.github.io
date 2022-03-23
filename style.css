@@ -19,6 +19,13 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
 ::-webkit-scrollbar {
     width: 8px;
     background: #181818;
