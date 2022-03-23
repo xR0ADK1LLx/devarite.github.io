@@ -20,10 +20,15 @@ body {
 }
 
 a {
-    color: #FFFFFF;
-    text-decoration: none;
+    color: #cccbdb;
+    text-decoration: underline;
     padding-left: 3px;
     padding-right: 3px;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
 }
 
 ::-webkit-scrollbar {
