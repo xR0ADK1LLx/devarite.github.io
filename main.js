@@ -1,11 +1,9 @@
-//stuff
+$(document).ready(function(){
+    $('.tab').click(function(){
+        $(this).addClass('pressed').siblings().removeClass('pressed');
+    });
 
-var x = document.getElementById("myAudio");
-
-function playAudio() {
-  x.play();
-}
-
-function pauseAudio() {
-  x.pause();
-}
+    $('#projects').click(function(){
+        $('.content').load('./projects.html');
+    });
+});
