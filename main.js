@@ -14,13 +14,6 @@ $(document).ready(function(){
     });
 
     //password generator
-    //takes in the length of the password
-    // takes in the true/false for numbers
-    // takes in the true/false for symbols
-    // takes in the true/false for uppercase
-    // takes in the true/false for lowercase
-    // takes in the true/false for special characters
-    // returns the password
 
     generatePassword = function(length, numbers, symbols, uppercase, lowercase, special){
         var generatedPassword = "";
@@ -57,9 +50,25 @@ $(document).ready(function(){
         $('#password').val(password);
     });
 
-    var password = $('#password');
-    //copy password to clipboard
-    password.select();
+    $('#copy').click(function(){
+        var password = $('#password');
+        //copy password to clipboard
+        password.select();
 
-    navigator.clipboard.writeText(password.val());
+        navigator.clipboard.writeText(password.val());
+    });
+
+    //base64 encode and decode
+    $('#b64encode').click(function(){
+        var text = $('#b64input').val();
+        var encoded = btoa(text);
+        $('#b64output').val(encoded);
+    });
+
+    $('#b64decode').click(function(){
+        var text = $('#b64input').val();
+        var decoded = atob(text);
+        $('#b64output').val(decoded);
+    });
+
 });
