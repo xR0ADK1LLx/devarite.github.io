@@ -19,6 +19,11 @@ body {
     overflow-x: hidden;
 }
 
+.container {
+    width: 100%;
+    height: 100%;
+}
+
 a {
     color: #cccbdb;
     text-decoration: underline;
@@ -148,7 +153,7 @@ h1, h2, h3, h4, h5 {
 .right-buttons {
     position: absolute;
     right: 15px;
-    top: 17px;
+    top: 14px;
 }
 
 .side-bar {
@@ -181,6 +186,7 @@ p {
     padding: 0;
     height: fit-content;
     width: 100%;
+    top: 14px;
 }
 
 .content {
@@ -199,3 +205,175 @@ p {
     border-radius: 8px;
     height: fit-content;
 }
+
+.widget {
+    background-color: #242424;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: left;
+    margin: 8px;
+    border-radius: 8px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.footer {
+    background-color: #242424;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: left;
+    margin-top: 8px;
+    bottom: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 8px;
+    position: absolute;
+    width: -webkit-fill-available;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type=number] {
+    width: 50px;
+    height: 20px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 3px;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input[type=number]:focus {
+    outline: none;
+}
+
+input[type=number]:hover {
+    background-color: #26700f;
+    box-shadow: #26700f 0px 0px 5px;
+    color: #ffffff;
+}
+
+button {
+    background-color: #26700f;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 5px;
+    margin-top: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #549241;
+    box-shadow: #549241 0px 0px 5px;
+    color: #ffffff;
+}
+
+button:focus {
+    outline: none;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 20px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+    margin-top: 3px;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: top;
+
+}
+
+input[type=text][name=password] {
+    word-wrap: break-word;
+    word-break: break-all;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+input[type=text]:hover {
+    background-color: #26700f;
+    box-shadow: #26700f 0px 0px 5px;
+    color: #ffffff;
+}
+
+input[type=email] {
+    width: 100%;
+    height: 20px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 3px;
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input[type=email]:focus {
+    outline: none;
+}
+
+input[type=email]:hover {
+    background-color: #26700f;
+    box-shadow: #26700f 0px 0px 5px;
+    color: #ffffff;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
