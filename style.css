@@ -294,10 +294,6 @@ input[type=text] {
     font-size: 15px;
     font-weight: bold;
     text-align: top;
-
-}
-
-input[type=text][name=password] {
     word-wrap: break-word;
     word-break: break-all;
     height: fit-content;
