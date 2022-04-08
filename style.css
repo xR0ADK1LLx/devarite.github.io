@@ -28,9 +28,14 @@ body {
 
 a {
     color: #cccbdb;
-    text-decoration: underline;
+    text-decoration: none;
     padding-left: 3px;
     padding-right: 3px;
+}
+
+a:hover {
+    color: #ffffff;
+    transition: all 0.1s ease-in-out;
 }
 
 h1,
@@ -50,6 +55,10 @@ h5 {
 ::-webkit-scrollbar-thumb {
     background: #414141;
     border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #4b4b4b;
 }
 
 .header {
@@ -137,6 +146,7 @@ h5 {
     background-color: #549241;
     box-shadow: #549241 0px 0px 5px;
     color: #FFFFFF;
+    transition: all 0.1s ease-in-out;
 }
 
 .right-buttons {
@@ -261,6 +271,7 @@ button:hover {
     background-color: #549241;
     box-shadow: #549241 0px 0px 5px;
     color: #ffffff;
+    transition: all 0.1s ease-in-out;
 }
 
 button:focus {
@@ -381,8 +392,29 @@ input[type=email]:hover {
 }
 
 .project:hover {
-    border: #cccbdb 1px solid;
     background-color: #858585;
     transform: scale(1.02);
+    transition: all 0.1s ease-in-out;
+}
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 12px;
+    right: 10px;
+    background-color: #333333;
+    box-shadow: #00000085 3px 3px 5px;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#back-to-top:hover {
+    background-color: #26700f;
+    box-shadow: #26700f 0px 0px 5px;
+    color: #ffffff;
     transition: all 0.1s ease-in-out;
 }
