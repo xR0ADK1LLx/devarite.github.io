@@ -143,6 +143,9 @@ h5 {
     position: absolute;
     right: 15px;
     top: 14px;
+    height: max-content;
+    padding: 7px;
+    padding-right: 0;
 }
 
 
