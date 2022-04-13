@@ -8,7 +8,10 @@ html {
 
 body {
     text-rendering: optimizeSpeed;
-    background-color: #181818;
+    background-color: #110f20;
+    background-image: url("./images/RepeatingHexagons.svg");
+    background-size: 100px;
+    background-repeat: repeat;
     font-family: Inter, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans;
     font-size: 14px;
     color: #FFFFFF;
@@ -62,7 +65,7 @@ h5 {
 }
 
 .header {
-    background-color: #242424;
+    background-color: #191e38;
     color: #FFFFFF;
     padding: 10px;
     text-align: left;
@@ -85,7 +88,7 @@ h5 {
     font-size: 15px;
     font-weight: bold;
     padding: 5px;
-    background-color: #333333;
+    background-color: #252f4b;
     border-radius: 6px;
     border: none;
     margin-left: 5px;
@@ -137,14 +140,14 @@ h5 {
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
-    background-color: #26700f;
+    background-color: #0f3670;
     border-radius: 6px;
     padding: 5px;
 }
 
 .github-source:hover {
-    background-color: #549241;
-    box-shadow: #549241 0px 0px 5px;
+    background-color: #415092;
+    box-shadow: #415b92 0px 0px 5px;
     color: #FFFFFF;
     transition: all 0.1s ease-in-out;
 }
@@ -157,7 +160,6 @@ h5 {
     padding: 7px;
     padding-right: 0;
 }
-
 
 .container {
     width: 100%;
@@ -186,8 +188,11 @@ p {
 }
 
 .pannel {
-    background-color: #242424;
-    color: #FFFFFF;
+    background-color: #191e38;
+    background-image: url("./images/RepeatingHexagons.svg");
+    background-size: 100px;
+    background-repeat: repeat;
+    border: 1px solid #232947;
     padding: 10px;
     text-align: left;
     width: 250px;
@@ -197,7 +202,11 @@ p {
 }
 
 .widget {
-    background-color: #242424;
+    background-color: #191e38;
+    background-image: url("./images/RepeatingHexagons.svg");
+    background-size: 100px;
+    background-repeat: repeat;
+    border: 1px solid #232947;
     color: #FFFFFF;
     padding: 10px;
     text-align: left;
@@ -214,7 +223,7 @@ p {
 }
 
 .footer {
-    background-color: #242424;
+    background-color: #191e38;
     color: #FFFFFF;
     padding: 10px;
     text-align: left;
@@ -222,7 +231,7 @@ p {
     bottom: 8px;
     margin-left: 8px;
     margin-right: 8px;
-    border-radius: 8px;
+    border-radius: 8px 8px 0 0;
     width: -webkit-fill-available;
 }
 
@@ -342,7 +351,7 @@ input[type=email]:hover {
 }
 
 .project {
-    background-color: #4e4e4e;
+    background-color: #202e55;
     border-radius: 8px;
     padding: 5px;
     width: fit-content;
