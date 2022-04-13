@@ -140,7 +140,7 @@ h5 {
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
-    background-color: #0f3670;
+    background-color: #495f74;
     border-radius: 6px;
     padding: 5px;
 }
@@ -188,7 +188,7 @@ p {
 }
 
 .pannel {
-    background-color: #191e38;
+    background-color: #1b1f2e;
     background-image: url("./images/RepeatingHexagons.svg");
     background-size: 100px;
     background-repeat: repeat;
@@ -202,7 +202,7 @@ p {
 }
 
 .widget {
-    background-color: #191e38;
+    background-color: #1b1f2e;
     background-image: url("./images/RepeatingHexagons.svg");
     background-size: 100px;
     background-repeat: repeat;
@@ -223,8 +223,8 @@ p {
 }
 
 .footer {
-    background-color: #191e38;
-    color: #FFFFFF;
+    background-color: #20243b;
+    color: #2c3144;
     padding: 10px;
     text-align: left;
     margin-top: 8px;
@@ -233,6 +233,7 @@ p {
     margin-right: 8px;
     border-radius: 8px 8px 0 0;
     width: -webkit-fill-available;
+    text-align: center;
 }
 
 .about {
@@ -351,7 +352,7 @@ input[type=email]:hover {
 }
 
 .project {
-    background-color: #202e55;
+    background-color: #293453;
     border-radius: 8px;
     padding: 5px;
     width: fit-content;
