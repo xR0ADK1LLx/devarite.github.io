@@ -189,7 +189,6 @@ p {
 
 .pannel {
     background-color: #1b1f2e;
-    background-image: url("./images/RepeatingHexagons.svg");
     background-size: 100px;
     background-repeat: repeat;
     border: 1px solid #232947;
@@ -203,7 +202,6 @@ p {
 
 .widget {
     background-color: #1b1f2e;
-    background-image: url("./images/RepeatingHexagons.svg");
     background-size: 100px;
     background-repeat: repeat;
     border: 1px solid #232947;
