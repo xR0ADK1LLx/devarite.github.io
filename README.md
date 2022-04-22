@@ -2,5 +2,3 @@
 For https://devarite.github.io/
 
 just a simple website
-
-Test
