@@ -218,6 +218,8 @@ p {
     margin-right: 8px;
     border-radius: 8px 8px 0 0;
     width: -webkit-fill-available;
+    width: -moz-available; /* goddammit mozilla */
+    height: fit-content;
     text-align: center;
 }
 
@@ -225,6 +227,19 @@ p {
     display: flex;
     flex-direction: row;
     width: 100%;
+}
+
+.aboutpan {
+    width: -webkit-fill-available;
+    width: -moz-available; /* goddammit mozilla */
+}
+
+.projects {
+    margin-left: 0;
+    height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    width: -moz-available;
+    height: -moz-available;
 }
 
 button,
