@@ -1,4 +1,16 @@
-//set.pcp
+function CreateDropdown(id, options) {
+    var dropdown = document.createElement("select");
+    dropdown.id = id;
+    dropdown.className = "form-control";
+    for (var i = 0; i < options.length; i++) {
+        var option = document.createElement("option");
+        option.value = options[i];
+        option.innerHTML = options[i];
+        option.id = options[i] + "_" + id;
+        dropdown.appendChild(option);
+    }
+    return dropdown;
+}
 
 $(document).ready(function(){
     //header buttons
@@ -29,4 +41,16 @@ $(document).ready(function(){
         $('html, body').animate({scrollTop : 0},200);
         return false;
     });
+
+    $('#twitter-button').click(function(){
+        $('#twitter-widget-0').remove();
+        // shrink #Twitter 
+        $('#Twitter').css('height', '0px');
+        // wait for the animation to finish
+        setTimeout(function(){
+            // remove #Twitter
+            $('#Twitter').remove();
+        }, 500);
+    });
 });
+
