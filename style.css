@@ -450,6 +450,12 @@ button {
     margin-right: 5px;
     text-align: left;
     color: #ffffff;
+    transition: all 0.1s ease-in-out;
+}
+
+.article-link:hover {
+    border: #3f464e 1px solid;
+    max-width: 300px;
 }
 
 .article-link-content {
@@ -551,4 +557,11 @@ hr {
 
 .toast-error {
     background-color: #ff0000;
+}
+
+.bvt {
+    width: -moz-available;
+    height: -moz-available;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
 }

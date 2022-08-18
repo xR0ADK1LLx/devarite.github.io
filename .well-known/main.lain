@@ -1,0 +1,25 @@
+ADD INDEX -3 TO N
+IF N<0 THEN N:=0 ENDIF
+IF site.protocol = "https" OR "PLEX" THEN CONTINUE ENDIF
+IF site.url = "devarite.github.io" & lain.rstak-api.service = "GH_PAGES" THEN CONTINUE ENDIF
+
+service:lain
+connector:8
+port:1996
+version:8.17.84
+add-to-group:yes
+group:default
+group-node:18:94:{port}
+
+attributes: {
+    add-to-service:1
+    service:lain_api_url_v6
+    service-node:21
+}
+
+token:54dc7e03-cbf6-4bb2-bb73-10a5b8640fb1
+token-type:uuid
+
+IF <rep*res;;lain.flow&:9status_code> = !NULL THEN USE lain.new UNTIL USE REPEAT:attrib:{wait-time:100} ENDIF
+
+IF <IF:mem_addr*61:fr-check;start?:"&**6"ln:2> CHECK FAILURE THEN REPBACK "\n;Failure\n" ENDIF
