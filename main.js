@@ -1,4 +1,4 @@
-function CreateDropdown(id, options) {
+function CreateDropdown(id, options) { // broken/unfinished
     var dropdown = document.createElement("select");
     dropdown.id = id;
     dropdown.className = "form-control";
@@ -10,6 +10,34 @@ function CreateDropdown(id, options) {
         dropdown.appendChild(option);
     }
     return dropdown;
+}
+
+function ShowToast(title, message) { // Toasts system
+    // Create an element and add it to the document
+    var toast = document.createElement("div");
+    toast.className = "toast";
+    toast.innerHTML = "<div class=\"toast-header\"><strong class=\"mr-auto\">" + title + "</strong></div><div class=\"toast-body\">" + message + "</div>";
+    document.body.appendChild(toast);
+    // push others out of the way
+    var toasts = document.getElementsByClassName("toast");
+    for (var i = 0; i < toasts.length; i++) {
+        toasts[i].style.bottom = (i * 50) + "px";
+    }
+    // Add the 'show' class to DIV
+    toast.classList.add("show");
+    // After 3 seconds, remove
+    setTimeout(function () {
+        // fade opacity
+        toast.style.opacity = "0";
+        // remove after opacity
+        setTimeout(function () {
+            // make all toasts move down
+            for (var i = 0; i < toasts.length; i++) {
+                toasts[i].style.bottom = ((i * 50) - 50) + "px";
+            }
+            document.body.removeChild(toast);
+        }, 300);
+    }, 3000);
 }
 
 $(document).ready(function(){
@@ -65,5 +93,17 @@ $(document).ready(function(){
         var blob = new Blob([html], {type: "text/html;charset=utf-8"});
         saveAs(blob, filename + ".html");
     });
+
+    // #article-share onclick to copy the article url to the clipboard
+    $('#article-share').click(function(){
+        var url = window.location.href;
+        var text = url;
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val(text).select();
+        document.execCommand("copy");
+        $temp.remove();
+        ShowToast("Success", "Article URL copied to clipboard");
+    }).tooltip();
 });
 

@@ -437,17 +437,25 @@ button {
 
 .article-link {
     display: inline-block;
-    background-color: #161B22;
     border: #30363D 1px solid;
     border-radius: 8px;
     padding: 5px;
     width: fit-content;
     height: fit-content;
+    max-width: 200px;
+    max-height: 200px;
+    overflow-Y: hidden;
     margin: 3px;
     margin-left: 0;
     margin-right: 5px;
     text-align: left;
     color: #ffffff;
+}
+
+.article-link-content {
+    overflow-Y: scroll;
+    max-width: 200px;
+    max-height: 150px;
 }
 
 .article-main {
@@ -513,4 +521,34 @@ hr {
 .article-img:hover {
     border: 1px solid #464646;
     filter: brightness(110%);
+}
+
+/*toasts that pop up on the bottom of the screen*/
+
+.toast {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 5px;
+    border-radius: 5px;
+    width: fit-content;
+    background-color: #161B22;
+    color: #FFFFFF;
+    border-radius: 8px;
+    padding: 5px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #30363D;
+    opacity: 1;
+    margin-top: 5px;
+    transition: all 0.1s ease-in-out;
+}
+
+.toast-success {
+    background-color: #00ff00;
+}
+
+.toast-error {
+    background-color: #ff0000;
 }
