@@ -168,13 +168,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="widget Chat" name="Chat">
-                        <h2 class="widget-title">
-                            Chat <span class="less-bold">Wip</span>
-                        </h2>
-                    </div>
                 </div>
                 <div class="side-col">
+                    <div class="widget Timeline" name="Articles">
+                        <div class="widget-title">
+                            <p class="inline">Latest articles</p>
+                            <span class="less-bold">Wip</span>
+                        </div>
+                        <div class="widget-desc">
+                            <p class="inline">Where I just share my opinions and stuff</p>
+                        </div>
+                        <div class="article-link">
+                            <a href="./articles/Template.html">
+                                <h3>Testing</h3>
+                            </a>
+                            <p>Uh testing this thingy</p>
+                        </div>
+                    </div>
                     <div class="widget Timeline" name="Twitter" id="Twitter">
                         <div class="widget-title">
                             <p class="inline">My twitter</p>
@@ -186,6 +196,18 @@
                             </a>
                         </div>
                         <a class="twitter-timeline" href="https://twitter.com/DevariteTheFox?ref_src=twsrc%5Etfw" data-chrome="transparent" data-theme="dark" data-height="600" id="Twitter-timeline">Tweets by DevariteTheFox</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+                    </div>
+                    <div class="widget Timeline" name="Time">
+                        <div class="widget-title">
+                            <p class="inline">My local time</p>
+                            <span class="less-bold" style="color: #4c6350;">Let me know if it's broken</span>
+                        </div>
+                        <!--Local time-->
+                        <div class="widget-desc cur-time">
+                            <p class="inline">
+                                Loading...
+                            </p>
+                        </div>
                     </div>
                     <div class="widget Timeline" name="Contributions">
                         test
@@ -200,5 +222,17 @@
             &copy; Devarite 2022 - All rights reserved
         </footer>
     </div>
+    <script>
+        // time
+        function updateTime() {
+            var d = new Date();
+            var n = d.toLocaleString('en-AU', {
+                timeZone: 'Australia/Melbourne'
+            });
+            document.getElementsByClassName('cur-time')[0].innerHTML = n;
+        }
+        updateTime();
+        setInterval(updateTime, 1000);
+    </script>
 </body>
 </html>

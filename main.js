@@ -52,5 +52,18 @@ $(document).ready(function(){
             $('#Twitter').remove();
         }, 500);
     });
+
+    // #remove-images onclick to remove all images
+    $('#remove-images').click(function(){
+        $('.article-img').remove();
+    });
+
+    // #download-article onclick to download the article as a html file
+    $('#download-article').click(function(){
+        var html = $('.article-main').html();
+        var filename = $('.article-title').text();
+        var blob = new Blob([html], {type: "text/html;charset=utf-8"});
+        saveAs(blob, filename + ".html");
+    });
 });
 

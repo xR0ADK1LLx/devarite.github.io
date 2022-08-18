@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <script src="../main.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="article-main">
+        <div class="article-title">
+            <a href="../index.html">&lt; Home</a>
+            <span class="less-bold" id="path-to-article">path</span>
+            <span class="less-bold" style="color: #606060;">Article Name</span>
+            <span style="color: #4c6350;">Post date</span>
+            <button class="widget-title-actions" id="remove-images" title="Remove images">
+                <i class="fas fa-images pix16"></i>
+            </button>
+            <button class="widget-title-actions" id="download-article" title="Download article as basic html">
+                <i class="fas fa-download pix16"></i>
+            </button>
+        </div>
+        <p class="article-content">
+            This is coming soon.
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam laboriosam natus maiores itaque, delectus, sed temporibus tenetur saepe, earum velit lain nulla. Nihil ratione dolore repudiandae deleniti itaque alias laudantium odit.
+            <br>
+            <hr>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam laboriosam natus maiores itaque, delectus, sed temporibus tenetur saepe, earum velit lain
+            <br>
+            <br>
+            Here's a image of a cat:
+            <br>
+            <img src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="Example image" class="article-img">
+            <br>
+        </p>
+        <div class="article-footer">
+            Done reading? <a href="../index.html">Go back to the homepage</a>
+        </div>
+    </div>
+    <script>
+        var path = window.location.pathname;
+        var pathArray = path.split('/');
+        var articleName = pathArray[pathArray.length - 1];
+        document.getElementById('path-to-article').innerHTML = "/articles/" + articleName + " >";
+    </script>
+</body>
+</html>

@@ -22,6 +22,11 @@ body {
     overflow-x: hidden;
 }
 
+h1, h2, h3, h4, h5, h6, a, i, p {
+    margin: 0;
+    padding: 0;
+}
+
 button {
     border: none;
     background: none;
@@ -38,8 +43,6 @@ button {
 a {
     color: #39A6FF;
     text-decoration: none;
-    padding-left: 3px;
-    padding-right: 3px;
 }
 
 a:hover {
@@ -234,6 +237,12 @@ p {
     color: #528fc2;
 }
 
+.widget-desc {
+    font-size: 12px;
+    color: #6c7685;
+    margin-bottom: 5px;
+}
+
 .pix16 {
     width: 16px;
     height: 16px;
@@ -414,17 +423,6 @@ button {
     height: min-content;
 }
 
-.calendar {
-    border: 1px solid #30363D !important;
-    border-radius: 8px !important;
-}
-
-.ContributionCalendar-day {
-    background-color: #161B22 !important;
-    border-radius: 8px !important;
-    border: 1px solid #30363D !important;
-}
-
 .less-bold {
     font-weight: 400 !important;
 }
@@ -435,4 +433,84 @@ button {
 
 #Twitter {
     transition: all 0.1s ease-in-out;
+}
+
+.article-link {
+    display: inline-block;
+    background-color: #161B22;
+    border: #30363D 1px solid;
+    border-radius: 8px;
+    padding: 5px;
+    width: fit-content;
+    height: fit-content;
+    margin: 3px;
+    margin-left: 0;
+    margin-right: 5px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.article-main {
+    position: absolute;
+    background-color: #0d1117;
+    background-size: 100px;
+    background-repeat: repeat;
+    border: 1px solid #30363D;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    height: fit-content;
+    width: -moz-available;
+    width: -webkit-fill-available;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 5px;
+
+}
+
+.article-title {
+    background-color: #161B22;
+    text-align: left;
+    font-weight: 700 !important;
+    font-size: 14px;
+    border-bottom: 1px solid #30363D;
+    border-radius: 8px 8px 0 0;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: -10px;
+    margin-bottom: 5px;
+}
+
+.article-footer {
+    background-color: #161B22;
+    text-align: left;
+    font-weight: 700 !important;
+    font-size: 14px;
+    border-top: 1px solid #30363D;
+    border-radius: 0 0 8px 8px;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: -10px;
+    margin-top: 5px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #30363D;
+}
+
+.article-img {
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #30363D;
+    transition: all 0.1s ease-in-out;
+}
+
+.article-img:hover {
+    border: 1px solid #464646;
+    filter: brightness(110%);
 }
