@@ -84,6 +84,7 @@ $(document).ready(function(){
     // #remove-images onclick to remove all images
     $('#remove-images').click(function(){
         $('.article-img').remove();
+        ShowToast("Success", "Images removed");
     });
 
     // #download-article onclick to download the article as a html file
