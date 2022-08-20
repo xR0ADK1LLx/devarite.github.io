@@ -212,10 +212,13 @@
                         <div class="widget-title">
                             <p class="inline">My local time</p>
                             <span class="less-bold" style="color: #4c6350;">Let me know if it's broken</span>
+                            <button class="inline widget-title-actions" id="time-copy" title="Copy time to clipboard">
+                                <i class="fas fa-copy"></i>
+                            </button>
                         </div>
                         <!--Local time-->
                         <div class="widget-desc cur-time">
-                            <p class="inline">
+                            <p class="inline" id="v-cur-time">
                                 Loading...
                             </p>
                         </div>
@@ -240,10 +243,21 @@
             var n = d.toLocaleString('en-AU', {
                 timeZone: 'Australia/Melbourne'
             });
+            time = n;
             document.getElementsByClassName('cur-time')[0].innerHTML = n;
         }
         updateTime();
         setInterval(updateTime, 1000);
+
+        // #time-copy click
+        $('#time-copy').click(function() {
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($('.cur-time').text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+            ShowToast('Time copied', 'Time copied to clipboard');
+        });
     </script>
 </body>
 </html>
