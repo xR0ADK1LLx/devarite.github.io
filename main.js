@@ -13,7 +13,6 @@ function CreateDropdown(id, options) { // broken/unfinished
 }
 
 function ShowToast(title, message) { // Toasts system
-    // Create an element and add it to the document
     var toast = document.createElement("div");
     toast.className = "toast";
     toast.innerHTML = "<div class=\"toast-header\"><strong class=\"mr-auto\">" + title + "</strong></div><div class=\"toast-body\">" + message + "</div>";
@@ -78,33 +77,8 @@ $(document).ready(function(){
         setTimeout(function(){
             // remove #Twitter
             $('#Twitter').remove();
+            ShowToast("Removed widget", "Twitter successfuly reomoved")
         }, 500);
     });
-
-    // #remove-images onclick to remove all images
-    $('#remove-images').click(function(){
-        $('.article-img').remove();
-        ShowToast("Success", "Images removed");
-    });
-
-    // #download-article onclick to download the article as a html file
-    $('#download-article').click(function(){
-        var html = $('.article-main').html();
-        var filename = $('.article-title').text();
-        var blob = new Blob([html], {type: "text/html;charset=utf-8"});
-        saveAs(blob, filename + ".html");
-    });
-
-    // #article-share onclick to copy the article url to the clipboard
-    $('#article-share').click(function(){
-        var url = window.location.href;
-        var text = url;
-        var $temp = $("<input>");
-        $("body").append($temp);
-        $temp.val(text).select();
-        document.execCommand("copy");
-        $temp.remove();
-        ShowToast("Success", "Article URL copied to clipboard");
-    }).tooltip();
 });
 
