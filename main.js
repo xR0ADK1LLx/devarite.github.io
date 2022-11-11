@@ -39,6 +39,17 @@ function ShowToast(title, message) { // Toasts system
     }, 3000);
 }
 
+function HoverEffect(e) {
+    const { currentTarget: target } = e;
+
+    const rect = target.getBoundingClientRect(),
+    x = e.clientX - rect.left,
+    y = e.clientY - rect.top;
+
+    target.style.setProperty("--mouse-x", `${x}px`)
+    target.style.setProperty("--mouse-y", `${y}px`)
+}
+
 $(document).ready(function(){
     //header buttons
     $('.tab').click(function(){
@@ -80,5 +91,9 @@ $(document).ready(function(){
             ShowToast("Removed widget", "Twitter successfuly reomoved")
         }, 500);
     });
+
+    for (const card of document.querySelectorAll(".project")) {
+        card.onmousemove = e => HoverEffect(e);
+    }
 });
 

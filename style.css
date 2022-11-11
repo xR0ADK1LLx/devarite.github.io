@@ -49,13 +49,9 @@ a:hover {
     text-decoration: underline;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-    margin: 0;
-    padding: 0;
+h4 {
+    font-size: 16px;
+    font-weight: 600;
 }
 
 img {
@@ -115,13 +111,13 @@ img {
     border-radius: 6px;
     border: #363B42 1px solid;
     font-weight: 500;
+    transition: all 0.2s ease-in-out;
 }
 
 .btn:hover {
     text-decoration: none;
     background-color: #30363D;
     border: #767e8a 1px solid;
-    transition: all 0.1s ease-in-out;
 }
 
 .btn-status {
@@ -240,7 +236,6 @@ p {
 .widget-desc {
     font-size: 12px;
     color: #6c7685;
-    margin-bottom: 5px;
 }
 
 .pix16 {
@@ -254,6 +249,37 @@ p {
     height: fit-content;
     font-size: 15px;
     text-align: center;
+}
+
+.Anzi {
+    background-image: url(./images/header.png);
+    background-size: cover;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5) inset, -1px -1px 5px rgba(0, 0, 0, 0.5) inset;
+}
+
+.Anzi-button {
+    background-color: #21262d98;
+    display: inline-block;
+    width: -moz-available;
+    width: -webkit-available;
+    width: fill-available;
+    box-shadow: #0D1117 3px 3px 5px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+}
+
+.Anzi-button:hover {
+    text-decoration: none;
+    background-color: #292e3394;
+    border: #545961 1px solid;
+}
+
+.Anzi-desc {
+    color: rgba(255, 255, 255, 0.67);
+}
+
+.Anzi-title {
+    color: #ffffff;
 }
 
 .about {
@@ -332,6 +358,33 @@ button {
     margin-left: 0;
     margin-right: 5px;
     text-align: left;
+    position: relative;
+}
+
+.project::before {
+    background: radial-gradient(
+        800px circle at var(--mouse-x) var(--mouse-y),
+        rgba(255, 255, 255, 0.15),
+        transparent 40%
+    );
+    border-radius: inherit;
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    transition: all 500ms ease;
+}
+
+.project:hover {
+    border: #3f464e 1px solid;
+}
+
+.project:hover::before {
+    opacity: 1;
 }
 
 .project p {
@@ -363,10 +416,6 @@ button {
     display: inline;
     font-weight: normal;
     text-decoration: none;
-}
-
-.project:hover {
-    border: #3f464e 1px solid;
 }
 
 #back-to-top {
@@ -435,98 +484,9 @@ button {
     transition: all 0.1s ease-in-out;
 }
 
-.article-link {
-    display: inline-block;
-    border: #30363D 1px solid;
-    border-radius: 8px;
-    padding: 5px;
-    width: fit-content;
-    height: fit-content;
-    max-width: 200px;
-    max-height: 200px;
-    overflow-Y: hidden;
-    margin: 3px;
-    margin-left: 0;
-    margin-right: 5px;
-    text-align: left;
-    color: #ffffff;
-    transition: all 0.1s ease-in-out;
-}
-
-.article-link:hover {
-    border: #3f464e 1px solid;
-    max-width: 300px;
-}
-
-.article-link-content {
-    overflow-Y: scroll;
-    max-width: 200px;
-    max-height: 150px;
-}
-
-.article-main {
-    position: absolute;
-    background-color: #0d1117;
-    background-size: 100px;
-    background-repeat: repeat;
-    border: 1px solid #30363D;
-    color: #FFFFFF;
-    padding: 10px;
-    text-align: left;
-    margin-bottom: 8px;
-    border-radius: 8px;
-    height: fit-content;
-    width: -moz-available;
-    width: -webkit-fill-available;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 5px;
-
-}
-
-.article-title {
-    background-color: #161B22;
-    text-align: left;
-    font-weight: 700 !important;
-    font-size: 14px;
-    border-bottom: 1px solid #30363D;
-    border-radius: 8px 8px 0 0;
-    padding: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: -10px;
-    margin-bottom: 5px;
-}
-
-.article-footer {
-    background-color: #161B22;
-    text-align: left;
-    font-weight: 700 !important;
-    font-size: 14px;
-    border-top: 1px solid #30363D;
-    border-radius: 0 0 8px 8px;
-    padding: 5px;
-    padding-right: 10px;
-    padding-left: 10px;
-    margin: -10px;
-    margin-top: 5px;
-}
-
 hr {
     border: none;
     border-top: 1px solid #30363D;
-}
-
-.article-img {
-    height: auto;
-    border-radius: 8px;
-    border: 1px solid #30363D;
-    transition: all 0.1s ease-in-out;
-}
-
-.article-img:hover {
-    border: 1px solid #464646;
-    filter: brightness(110%);
 }
 
 /*toasts that pop up on the bottom of the screen*/
