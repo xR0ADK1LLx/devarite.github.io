@@ -1,3 +1,9 @@
+:root {
+    --background: #010409;
+    --background-secondary: #161B22;
+    --border: #30363D;
+}
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -11,6 +17,7 @@ body {
     background-color: #010409;
     /*font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;*/
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    text-rendering: geometricPrecision;
     font-size: 14px;
     line-height: 1.5;
     color: #FFFFFF;
@@ -440,8 +447,8 @@ button {
 }
 
 .a-icon:hover {
-    color: #a200ff !important;
-    text-decoration: none !important;
+    color: #a200ff;
+    text-decoration: none;
 }
 
 .social-buttons {
@@ -526,3 +533,4 @@ hr {
     width: -webkit-fill-available;
     height: -webkit-fill-available;
 }
+

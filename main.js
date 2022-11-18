@@ -80,18 +80,6 @@ $(document).ready(function(){
         return false;
     });
 
-    $('#twitter-button').click(function(){
-        $('#twitter-widget-0').remove();
-        // shrink #Twitter 
-        $('#Twitter').css('height', '0px');
-        // wait for the animation to finish
-        setTimeout(function(){
-            // remove #Twitter
-            $('#Twitter').remove();
-            ShowToast("Removed widget", "Twitter successfuly reomoved")
-        }, 500);
-    });
-
     for (const card of document.querySelectorAll(".project")) {
         card.onmousemove = e => HoverEffect(e);
     }
